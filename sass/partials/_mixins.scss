@@ -1,0 +1,117 @@
+// Tipografia
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+          eot: "?",
+          svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+          otf: "opentype",
+          ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+
+//General
+
+@mixin subtitulo($color, $tamaño) {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: $tamaño;
+  letter-spacing: 4px;
+  color: $color;
+  font-family: karla;
+  padding-bottom: 7em;
+}
+
+@mixin contenedor-columnas($wrap){
+  display: flex;
+  flex-wrap: $wrap;
+}
+
+@mixin deco-bg( $color, $tamaño, $top, $right, $left){
+  content: 'TQB';
+  color: rgba($color, .2);
+  position: absolute;
+  font-size: $tamaño;
+  top: $top;
+  right: $right;
+  left: $left;
+  z-index: -1;
+}
+
+@mixin image-deco($image-url,$bg-size, $top, $right, $left){
+  content: '';
+  background-image: $image-url;
+  background-size: $bg-size;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  top: $top;
+  right: $right;
+  left: $left;
+}
+
+//Portafolio
+@mixin ornamentacion($bg-image, $position) {
+  background-image: $bg-image;
+  background-position-x: $position;
+  width: 30px;
+}
+
+@mixin portafolio($height) {
+  display: block;
+  overflow: hidden;
+  height: $height;
+}
+
+@mixin portafolio-position-bottom($bottom) {
+  position: absolute;
+  bottom: $bottom;
+}
+
+@mixin portafolio-position-top($top) {
+  position: absolute;
+  top: $top;
+}
+
+@mixin portafolio-position-right($right) {
+  position: absolute;
+  right: $right;
+}
+
+//Queries
+//Queries
+
+
+$handshelds: 600px;
+$tablet: 1250px;
+$laptops: 1600px;
+
+@mixin media($queries) {
+
+  @if $queries == laptops {
+    @media only screen and (max-width: $laptops) { @content; }
+  }
+  @else if $queries == tablet {
+    @media only screen and (max-width: $tablet) { @content; }
+  }
+  @else if $queries == handshelds {
+    @media only screen and (max-width: $handshelds)  { @content; }
+  }
+}

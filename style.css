@@ -1,0 +1,3040 @@
+@charset "UTF-8";
+/*
+Theme Name: Te quiero Bonita
+Theme URI: http://www.tequierobonitapelu.cl
+Author: Brutos
+Author URI: www.somosbrutos.cl
+Description: Proyecto desarrollado para la Peluquería Te Quiero bonita, Chile.
+Version: 1.0
+Tags: black, art, minimal, sass
+Text Domain: tequierobonita
+*/
+/* line 10, sass/partials/_grid.scss */
+.col-1 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 8.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 15, sass/partials/_grid.scss */
+.col-2 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16.66667%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 20, sass/partials/_grid.scss */
+.col-3 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 25, sass/partials/_grid.scss */
+.col-4 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 30, sass/partials/_grid.scss */
+.col-5 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 41.66667%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 35, sass/partials/_grid.scss */
+.col-6 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 40, sass/partials/_grid.scss */
+.col-7 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 58.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 45, sass/partials/_grid.scss */
+.col-8 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 50, sass/partials/_grid.scss */
+.col-9 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 75%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 55, sass/partials/_grid.scss */
+.col-10 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 83.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 60, sass/partials/_grid.scss */
+.col-11 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/* line 65, sass/partials/_grid.scss */
+.col-12 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  position: relative;
+}
+
+/*[class^="col-"] {
+  position: relative;
+}*/
+/* normalize-scss 3.0.2+normalize.3.0.2 | MIT/GPLv2 License | bit.ly/normalize-scss */
+/**
+ * Establish a vertical rhythm unit using $base-font-size, $base-line-height,
+ * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
+ * body `font-size` is set using `em` units.
+ */
+/* line 106, ../../../../../../.rvm/gems/ruby-2.2.6/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 67, sass/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 79, sass/normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 93, sass/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 114, sass/normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  *display: inline;
+  *zoom: 1;
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 133, sass/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ */
+/* line 143, sass/normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/**
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 152, sass/normalize.scss */
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 164, sass/normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 173, sass/normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 185, sass/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 193, sass/normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Set 1 unit of vertical rhythm on the top and bottom margin.
+ */
+/* line 203, sass/normalize.scss */
+blockquote {
+  margin: 1.5em 40px;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 212, sass/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 221, sass/normalize.scss */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 2em;
+  line-height: 1.5em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+/* line 236, sass/normalize.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 242, sass/normalize.scss */
+h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+  margin-top: 1.28205em;
+  margin-bottom: 1.28205em;
+}
+
+/* line 248, sass/normalize.scss */
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 254, sass/normalize.scss */
+h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+  margin-top: 1.80723em;
+  margin-bottom: 1.80723em;
+}
+
+/* line 260, sass/normalize.scss */
+h6 {
+  font-size: 0.67em;
+  line-height: 2.23881em;
+  margin-top: 2.23881em;
+  margin-bottom: 2.23881em;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 272, sass/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Set 1 unit of vertical rhythm on the top and bottom margin.
+ */
+/* line 283, sass/normalize.scss */
+p,
+pre {
+  margin: 1.5em 0;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 293, sass/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 301, sass/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 309, sass/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 313, sass/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Lists
+   ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+/* line 325, sass/normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1.5em 0;
+}
+
+/* line 346, sass/normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+/* line 354, sass/normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+/* line 366, sass/normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 381, sass/normalize.scss */
+img {
+  border: 0;
+  /* Improve image quality when scaled in IE 7. */
+  -ms-interpolation-mode: bicubic;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 394, sass/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 406, sass/normalize.scss */
+figure {
+  margin: 1.5em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 415, sass/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 424, sass/normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 432, sass/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+/* line 456, sass/normalize.scss */
+form {
+  margin: 0;
+}
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Address `font-family` inconsistency between `textarea` and other form in IE 7
+ * 5. Improve appearance and consistency with IE 6/7.
+ */
+/* line 470, sass/normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  *font-family: sans-serif;
+  /* 4 */
+  *vertical-align: middle;
+  /* 5 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 488, sass/normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 499, sass/normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+/* line 514, sass/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 529, sass/normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 538, sass/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 549, sass/normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+/* line 564, sass/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 581, sass/normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 592, sass/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */
+  /**
+   * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+   * Safari (but not Chrome) clips the cancel button when the search input has
+   * padding (and `textfield` appearance).
+   */
+}
+/* line 602, sass/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 612, sass/normalize.scss */
+fieldset {
+  margin: 0 2px;
+  /* Apply borders and padding that keep the vertical rhythm. */
+  border-color: #c0c0c0;
+  border-top-width: 0.0625em;
+  border-top-style: solid;
+  padding-top: 0.4625em;
+  border-bottom-width: 0.0625em;
+  border-bottom-style: solid;
+  padding-bottom: 0.9125em;
+  border-left-width: 0.0625em;
+  border-left-style: solid;
+  padding-left: 0.875em;
+  border-right-width: 0.0625em;
+  border-right-style: solid;
+  padding-right: 0.875em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+/* line 628, sass/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 642, sass/normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 651, sass/normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 662, sass/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 667, sass/normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+@font-face {
+  font-family: "karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/karla.eot?") format("eot"), url("fonts/karla.woff2") format("woff2"), url("fonts/karla.woff") format("woff"), url("fonts/karla.ttf") format("truetype"), url('fonts/karla.svg#str-replace(karla, " ", "_")') format("svg");
+}
+@font-face {
+  font-family: "pt";
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/pt.eot?") format("eot"), url("fonts/pt.woff2") format("woff2"), url("fonts/pt.woff") format("woff"), url("fonts/pt.ttf") format("truetype"), url('fonts/pt.svg#str-replace(pt, " ", "_")') format("svg");
+}
+@font-face {
+  font-family: "pt-bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-bold.eot?") format("eot"), url("fonts/pt-bold.woff2") format("woff2"), url("fonts/pt-bold.woff") format("woff"), url("fonts/pt-bold.ttf") format("truetype"), url('fonts/pt-bold.svg#str-replace(pt-bold, " ", "_")') format("svg");
+}
+@font-face {
+  font-family: "fontawesome";
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/fontawesome-webfont.eot?") format("eot"), url("fonts/fontawesome-webfont.woff2") format("woff2"), url("fonts/fontawesome-webfont.woff") format("woff"), url("fonts/fontawesome-webfont.ttf") format("truetype"), url('fonts/fontawesome-webfont.svg#str-replace(fontawesome, " ", "_")') format("svg");
+}
+/* line 21, sass/style.scss */
+body {
+  font-family: karla;
+  color: #636550;
+  background: #f9f9f9;
+  margin: 0;
+  font-size: 12px;
+}
+
+/* line 29, sass/style.scss */
+.contenedor {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 12, ../../../../../../.rvm/gems/ruby-2.2.6/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.contenedor:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 34, sass/style.scss */
+li {
+  list-style: none;
+}
+
+/* line 38, sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 42, sass/style.scss */
+p {
+  margin: 0;
+  font-size: 12.7px;
+  letter-spacing: 1px;
+  font-family: pt;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+/* line 54, sass/style.scss */
+#servicio-int .titulo, #publicacion article .titulo, #blog-template .titulo, #pages .titulo, .titulo-contenido, #search .titulo, #contact .titulo {
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: pt;
+  line-height: 20px;
+  color: #262a1b;
+}
+
+/* line 64, sass/style.scss */
+#servicios hr {
+  width: 80px;
+  background-color: #b6a1af;
+  height: 2px;
+  border: none;
+}
+
+/* line 71, sass/style.scss */
+#menu-agenda li a span, .giro p, #portfolio .contenedor-catalogo div figcaption {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 87, sass/style.scss */
+#menu-redes-sociales li a, #menu-agenda li a, #portfolio-int .portfolio-items .item-portfolio .link-item, #portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria p .name a, #servicios .taxonomy .servicio a, #servicio-int .filter_services ul .item-services a, #blog .btn-blog, .blog-content h1 a, #thumb [class^="tqb-"]:nth-child(1) figure img, #thumb [class^="tqb-"]:nth-child(2) figure img, #thumb [class^="tqb-"]:nth-child(3) figure img, #thumb [class^="tqb-"]:nth-child(4) figure img, #thumb [class^="tqb-"]:nth-child(5) figure img, #thumb [class^="tqb-"]:nth-child(6) figure img, #thumb [class^="tqb-"]:nth-child(7) figure img, #thumb [class^="tqb-"]:nth-child(8) figure img, #nofound div .boton-back, #search form input[type='submit'], #search .search-result h2 a, #search .search-result h4 a, #productos #slider-productos .thumb-productos li a img, #contact .contenedor-col #contact-form input[type="submit"], #sub-footer .contenedor-col .sub-foot ul a, #footer .contenedor-col > div a, #footer .contenedor-col > div #back-to-top {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 93, sass/style.scss */
+.permalink {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: inherit;
+  padding: 15px 0;
+}
+/* line 101, sass/style.scss */
+.permalink div {
+  padding: 1em;
+  border: 1px solid #ffffff;
+}
+/* line 105, sass/style.scss */
+.permalink:hover {
+  background-image: url(images/brush.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+/* line 111, sass/style.scss */
+.permalink i {
+  padding-left: 20px;
+}
+
+/* line 116, sass/style.scss */
+.boton {
+  padding: 3em 0 5em 0;
+  display: inline-block;
+  color: #636550;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: pt;
+}
+/* line 123, sass/style.scss */
+.boton span {
+  font-family: karla;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 13px;
+}
+/* line 129, sass/style.scss */
+.boton hr {
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 4px;
+  background-color: #636550;
+  width: 40px;
+  display: inline-block;
+  height: 1px;
+  border: none;
+  margin: 3px 10px;
+}
+/* line 141, sass/style.scss */
+.boton:hover {
+  background-image: url(images/brush.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 0 40%;
+}
+
+/* line 149, sass/style.scss */
+blockquote {
+  border-left: 1px solid #c79029;
+  margin: 27px 0px 27px 0px;
+  padding: 0 0 0 27px;
+}
+/* line 153, sass/style.scss */
+blockquote p {
+  padding-bottom: 0 !important;
+  font-size: 13px;
+  color: #474939;
+}
+
+/* line 160, sass/style.scss */
+strong {
+  font-family: pt-bold;
+  font-weight: inherit;
+  color: #6b5363;
+}
+
+/* line 166, sass/style.scss */
+header {
+  padding: 15px 0;
+}
+/* line 169, sass/style.scss */
+header .col-4:nth-child(1), header .col-4:nth-child(3) {
+  top: 8em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 169, sass/style.scss */
+  header .col-4:nth-child(1), header .col-4:nth-child(3) {
+    top: 3.5em;
+  }
+}
+/* line 177, sass/style.scss */
+header .logotipo img {
+  width: 100%;
+  max-width: 330px;
+  min-width: 200px;
+}
+/* line 183, sass/style.scss */
+header .logotipo-2 {
+  padding: 30px 0;
+}
+/* line 185, sass/style.scss */
+header .logotipo-2 img {
+  width: 100%;
+  max-width: 60px;
+  min-width: 40px;
+  display: block;
+  margin: auto;
+}
+/* line 193, sass/style.scss */
+header .logo-else {
+  text-align: center;
+  padding-top: 2.7em;
+  font-size: 30px;
+}
+/* line 199, sass/style.scss */
+header nav ul {
+  float: right;
+  padding: 0;
+}
+/* line 202, sass/style.scss */
+header nav ul li {
+  float: left;
+  padding: 0 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 0px;
+}
+/* line 209, sass/style.scss */
+header nav ul li:last-child {
+  padding-right: 0;
+}
+/* line 212, sass/style.scss */
+header nav ul li a {
+  display: inline-block;
+  color: #262a1b;
+}
+/* line 216, sass/style.scss */
+header nav ul li a i {
+  font-size: 15px !important;
+}
+/* line 219, sass/style.scss */
+header nav ul li a:hover {
+  background-image: url("/images/scissor.png");
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 229, sass/style.scss */
+  #header-full {
+    display: none;
+  }
+}
+
+/* line 235, sass/style.scss */
+#header-responsive {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  /* line 235, sass/style.scss */
+  #header-responsive {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 240, sass/style.scss */
+  #header-responsive .word {
+    display: none;
+  }
+}
+
+/* line 248, sass/style.scss */
+.mobilenav a:hover {
+  text-decoration: line-through;
+  background-image: url("images/scissor-left.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 100% 50%;
+}
+/* line 255, sass/style.scss */
+.mobilenav .active a {
+  background-image: url("images/scissor-left.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 100% 50%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 262, sass/style.scss */
+  .mobilenav li {
+    text-align: center !important;
+  }
+}
+
+/* line 272, sass/style.scss */
+#menu-redes-sociales {
+  position: fixed;
+  left: 1em;
+  top: 34em;
+  z-index: 2;
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 272, sass/style.scss */
+  #menu-redes-sociales {
+    display: none !important;
+  }
+}
+/* line 281, sass/style.scss */
+#menu-redes-sociales li {
+  font-size: 17px;
+  padding-bottom: 11px;
+  text-align: center;
+}
+/* line 285, sass/style.scss */
+#menu-redes-sociales li a {
+  color: #636550;
+}
+/* line 288, sass/style.scss */
+#menu-redes-sociales li a:hover {
+  color: #c79029;
+  font-size: 25px;
+}
+/* line 293, sass/style.scss */
+#menu-redes-sociales li span {
+  display: none;
+}
+
+/* line 301, sass/style.scss */
+#menu-secundario li span, #menu-secundario-1 li span {
+  display: none;
+}
+
+/* line 307, sass/style.scss */
+#menu-agenda {
+  position: fixed;
+  right: -1em;
+  top: 34em;
+  z-index: 2;
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 307, sass/style.scss */
+  #menu-agenda {
+    display: none !important;
+  }
+}
+/* line 316, sass/style.scss */
+#menu-agenda li {
+  font-size: 17px;
+}
+/* line 318, sass/style.scss */
+#menu-agenda li a {
+  color: #636550;
+}
+/* line 321, sass/style.scss */
+#menu-agenda li a:hover {
+  color: #c79029;
+  font-size: 25px;
+}
+/* line 325, sass/style.scss */
+#menu-agenda li a:hover span hr {
+  background: #c79029;
+}
+/* line 328, sass/style.scss */
+#menu-agenda li a i {
+  display: block;
+  text-align: center;
+}
+/* line 332, sass/style.scss */
+#menu-agenda li a span {
+  display: block;
+  font-size: 12px;
+  position: relative;
+  top: 60px;
+  left: -1px;
+  letter-spacing: 1px;
+}
+/* line 340, sass/style.scss */
+#menu-agenda li a span hr {
+  width: 40px;
+  height: 1px;
+  border: none;
+  background: #636550;
+  float: right;
+  text-align: center;
+  position: relative;
+  right: 15px;
+  top: 6px;
+  margin-left: 28px;
+}
+
+/* line 361, sass/style.scss */
+#nav-phone .contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 20em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 361, sass/style.scss */
+  #nav-phone .contenedor {
+    padding-top: 7em;
+  }
+}
+/* line 368, sass/style.scss */
+#nav-phone .contenedor .reseña {
+  width: 300px;
+  max-width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 368, sass/style.scss */
+  #nav-phone .contenedor .reseña {
+    display: none;
+  }
+}
+/* line 375, sass/style.scss */
+#nav-phone .contenedor .menu-menu-principal-container {
+  width: calc(100% - 300px);
+}
+@media only screen and (max-width: 600px) {
+  /* line 375, sass/style.scss */
+  #nav-phone .contenedor .menu-menu-principal-container {
+    width: 100%;
+  }
+}
+
+/* line 387, sass/style.scss */
+.dotted:after {
+  background: url(images/pattern_dot.png) left top #e6e0e4;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 399, sass/style.scss */
+#slider {
+  padding-top: 5em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 399, sass/style.scss */
+  #slider {
+    padding-top: 0;
+  }
+}
+/* line 404, sass/style.scss */
+#slider ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 408, sass/style.scss */
+#slider ul li article {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* line 416, sass/style.scss */
+.info {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 12px;
+  width: 100%;
+  padding: 0em 6em;
+  box-sizing: border-box;
+  display: flex;
+  background: rgba(35, 38, 43, 0.3);
+}
+@media only screen and (max-width: 600px) {
+  /* line 416, sass/style.scss */
+  .info {
+    padding: 0 4em;
+  }
+}
+/* line 429, sass/style.scss */
+.info h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-align: left;
+  margin: 0 0 5px 0;
+  color: #ffffff;
+  font-family: pt;
+}
+@media only screen and (max-width: 600px) {
+  /* line 429, sass/style.scss */
+  .info h1 {
+    font-size: 40px;
+  }
+}
+/* line 440, sass/style.scss */
+.info h2 {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  font-family: karla;
+  padding-bottom: 7em;
+  padding-bottom: 0;
+}
+/* line 444, sass/style.scss */
+.info p {
+  font-family: karla;
+  margin: 0;
+  text-align: right;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+/* line 455, sass/style.scss */
+.giro {
+  position: relative;
+  width: calc(100% - 50%);
+}
+@media only screen and (max-width: 600px) {
+  /* line 455, sass/style.scss */
+  .giro {
+    display: none;
+  }
+}
+/* line 461, sass/style.scss */
+.giro p {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  right: -7em;
+  top: 12em;
+  word-break: keep-all;
+  width: 250px;
+}
+
+/* line 473, sass/style.scss */
+.title-content {
+  position: relative;
+  width: 100%;
+}
+/* line 476, sass/style.scss */
+.title-content .second-content {
+  position: absolute;
+  top: 25em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 476, sass/style.scss */
+  .title-content .second-content {
+    top: 20em;
+  }
+}
+
+/* line 486, sass/style.scss */
+.bxslider figure {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  right: 0em;
+  top: 1em;
+  height: 600px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 486, sass/style.scss */
+  .bxslider figure {
+    height: 500px;
+  }
+  /* line 495, sass/style.scss */
+  .bxslider figure img {
+    position: relative;
+    right: 70%;
+  }
+}
+
+/* line 506, sass/style.scss */
+#about {
+  display: flex;
+  padding: 3em 0;
+  width: 65%;
+}
+/* line 507, sass/style.scss */
+#about:before {
+  content: 'TQB';
+  color: rgba(107, 83, 99, 0.2);
+  position: absolute;
+  font-size: 400px;
+  top: 3.92em;
+  right: 41px;
+  left: inherit;
+  z-index: -1;
+}
+@media only screen and (max-width: 600px) {
+  /* line 507, sass/style.scss */
+  #about:before {
+    content: 'TQB';
+    color: rgba(107, 83, 99, 0.2);
+    position: absolute;
+    font-size: 250px;
+    top: 4.5em;
+    right: -41px;
+    left: inherit;
+    z-index: -1;
+  }
+}
+/* line 516, sass/style.scss */
+#about article {
+  order: 2;
+  width: calc(100% - 400px);
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+/* line 521, sass/style.scss */
+#about article h1 {
+  color: #262a1b;
+  font-family: pt;
+  font-size: 30px;
+}
+/* line 526, sass/style.scss */
+#about article h2 {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #c79029;
+  font-family: karla;
+  padding-bottom: 7em;
+  padding-bottom: 0;
+}
+/* line 530, sass/style.scss */
+#about article p {
+  padding-top: 1.5em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 516, sass/style.scss */
+  #about article {
+    width: 100%;
+  }
+}
+/* line 538, sass/style.scss */
+#about figure {
+  order: 1;
+  width: 400px;
+  margin: 0 2em;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 340px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 538, sass/style.scss */
+  #about figure {
+    display: none;
+  }
+}
+/* line 548, sass/style.scss */
+#about figure img {
+  width: 550px;
+  max-width: 800px;
+  position: relative;
+  right: 20%;
+}
+
+/* line 560, sass/style.scss */
+#portfolio .contenedor-catalogo {
+  width: 80%;
+  margin: auto;
+}
+
+/* line 565, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(1) #portafolio-1, #portfolio .contenedor-catalogo div:nth-child(1) #portafolio-2, #portfolio .contenedor-catalogo div:nth-child(2) #portafolio-3, #portfolio .contenedor-catalogo div:nth-child(2) #portafolio-4 {
+  position: relative;
+  margin: 0 0 .7em 0;
+}
+
+/* line 570, sass/style.scss */
+#portfolio h1, #portfolio-int .titulo, #servicios h1, #blog > h1, #nofound .titulo {
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-bottom: 3px;
+  color: #262a1b;
+  font-family: pt;
+}
+/* line 576, sass/style.scss */
+#portfolio h1:after, #portfolio-int .titulo:after, #servicios h1:after, #blog > h1:after, #nofound .titulo:after {
+  content: '.';
+}
+@media only screen and (max-width: 600px) {
+  /* line 570, sass/style.scss */
+  #portfolio h1, #portfolio-int .titulo, #servicios h1, #blog > h1, #nofound .titulo {
+    font-size: 30px;
+  }
+}
+
+/* line 584, sass/style.scss */
+#portfolio {
+  padding: 5em 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 584, sass/style.scss */
+  #portfolio {
+    display: none;
+  }
+}
+/* line 593, sass/style.scss */
+#portfolio h1 {
+  text-align: left;
+}
+/* line 597, sass/style.scss */
+#portfolio p {
+  padding-bottom: 70px;
+  text-align: left;
+}
+/* line 603, sass/style.scss */
+#portfolio .contenedor-catalogo div {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 607, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(1) {
+  height: 515px;
+}
+/* line 611, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(1) #portafolio-1 {
+  width: calc(100% / 3);
+  padding-right: .7em;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+}
+/* line 619, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(1) #portafolio-2 {
+  width: 66.66667%;
+  display: block;
+  overflow: hidden;
+  height: 500px;
+  padding-left: .7em;
+  position: absolute;
+  right: 0;
+  box-sizing: border-box;
+}
+/* line 629, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(2) {
+  width: 66%;
+  float: right;
+}
+/* line 632, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(2) #portafolio-3 {
+  width: 66.66667%;
+  padding-left: .7em;
+  padding-right: .7em;
+  display: block;
+  overflow: hidden;
+  height: 300px;
+  box-sizing: border-box;
+}
+/* line 639, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(2) #portafolio-3 a {
+  position: absolute;
+  top: 0;
+  line-height: 0;
+}
+/* line 644, sass/style.scss */
+#portfolio .contenedor-catalogo div:nth-child(2) #portafolio-4 {
+  width: calc(100% / 3);
+  padding-left: .7em;
+  box-sizing: border-box;
+}
+/* line 651, sass/style.scss */
+#portfolio .contenedor-catalogo div figcaption {
+  position: absolute;
+  top: 55px;
+  right: -4%;
+}
+/* line 656, sass/style.scss */
+#portfolio .contenedor-catalogo div figcaption .titulo-contenido {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: #636550;
+  font-size: 12px;
+}
+/* line 665, sass/style.scss */
+#portfolio .contenedor-catalogo img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 672, sass/style.scss */
+.permalink-1 {
+  color: #636550;
+  font-size: 13px;
+  text-align: center;
+}
+/* line 676, sass/style.scss */
+.permalink-1 .per-content {
+  padding: 1em;
+  border: 1px solid #636550;
+}
+
+/* line 686, sass/style.scss */
+#portfolio-int .titulo {
+  text-align: center;
+}
+/* line 690, sass/style.scss */
+#portfolio-int .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 694, sass/style.scss */
+#portfolio-int .portfolio-items {
+  column-width: 320px;
+  column-gap: 16px;
+  width: 90%;
+  max-width: 1100px;
+  padding: 0;
+  margin: 50px auto 0 auto;
+}
+/* line 701, sass/style.scss */
+#portfolio-int .portfolio-items .item-portfolio {
+  display: inline-block;
+  column-break-inside: avoid;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+/* line 707, sass/style.scss */
+#portfolio-int .portfolio-items .item-portfolio img {
+  width: 100%;
+  height: auto;
+}
+/* line 711, sass/style.scss */
+#portfolio-int .portfolio-items .item-portfolio .link-item {
+  display: block;
+  position: absolute;
+  top: -8px;
+  background-color: #74bdc4;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: color;
+  opacity: 0;
+  cursor: auto;
+}
+/* line 722, sass/style.scss */
+#portfolio-int .portfolio-items .item-portfolio .link-item:hover {
+  opacity: 1;
+}
+/* line 726, sass/style.scss */
+#portfolio-int .portfolio-items .item-portfolio .title-item {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  z-index: 1;
+  padding: 3.5em 3em;
+  mix-blend-mode: normal;
+  font-family: pt;
+  display: none;
+}
+/* line 735, sass/style.scss */
+#portfolio-int .portfolio-items .item-portfolio .title-item h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+/* line 748, sass/style.scss */
+#portfolio-int .portfolio-detail figure {
+  margin: 0;
+  padding-bottom: 5em;
+}
+/* line 751, sass/style.scss */
+#portfolio-int .portfolio-detail figure img {
+  width: 100%;
+  height: auto;
+}
+/* line 756, sass/style.scss */
+#portfolio-int .portfolio-detail .titulo-detail {
+  color: #262a1b;
+}
+/* line 759, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 5em;
+}
+/* line 762, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .contenido {
+  width: 60%;
+  padding-right: 3em;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+/* line 768, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria {
+  width: 40%;
+  padding-left: 4em;
+  box-sizing: border-box;
+}
+/* line 772, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria p {
+  display: flex;
+  flex-wrap: nowrap;
+  line-height: 30px;
+}
+/* line 775, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria p .cat {
+  font-family: pt-bold;
+  color: #262a1b;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 30%;
+}
+/* line 782, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria p .name {
+  width: 70%;
+}
+/* line 784, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria p .name a {
+  color: #74bdc4;
+}
+/* line 787, sass/style.scss */
+#portfolio-int .portfolio-detail .contenido-portafolio .info-complementaria p .name a:hover {
+  text-decoration: line-through;
+}
+
+/* line 801, sass/style.scss */
+#servicios {
+  padding-bottom: 6em;
+}
+/* line 803, sass/style.scss */
+#servicios h1 {
+  text-align: center;
+}
+/* line 807, sass/style.scss */
+#servicios p {
+  text-align: center;
+  padding-bottom: 70px;
+}
+/* line 814, sass/style.scss */
+#servicios .title-gral {
+  border: none;
+  font-size: 14px;
+  padding: 1em 0;
+  text-align: center;
+  display: block;
+  color: #c79029;
+  font-family: karla;
+  text-transform: uppercase;
+}
+/* line 823, sass/style.scss */
+#servicios .title-gral:after {
+  content: '';
+}
+/* line 827, sass/style.scss */
+#servicios .taxonomy {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6em 0 0 0;
+  width: 100% !important;
+  height: 300px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 827, sass/style.scss */
+  #servicios .taxonomy {
+    margin: 0;
+  }
+}
+/* line 836, sass/style.scss */
+#servicios .taxonomy .servicio {
+  width: calc(100% / 4);
+  padding: 0 .3em;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/* line 841, sass/style.scss */
+#servicios .taxonomy .servicio a {
+  height: 300px;
+  padding: 5em 1em;
+  box-sizing: border-box;
+  border: 1.3px solid #636550;
+  display: block;
+}
+/* line 848, sass/style.scss */
+#servicios .taxonomy .servicio a:hover {
+  border-color: #c79029;
+  cursor: pointer;
+  background-color: rgba(199, 144, 41, 0.05);
+}
+/* line 853, sass/style.scss */
+#servicios .taxonomy .servicio a:hover .description {
+  color: #c79029;
+}
+/* line 858, sass/style.scss */
+#servicios .taxonomy .servicio .thumb-services {
+  display: block;
+  margin: auto;
+  width: 50px;
+  max-width: 70px;
+}
+/* line 864, sass/style.scss */
+#servicios .taxonomy .servicio .description {
+  color: #636550;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  /* line 836, sass/style.scss */
+  #servicios .taxonomy .servicio {
+    width: 50%;
+  }
+}
+
+/* line 875, sass/style.scss */
+.bg-color-services {
+  background-color: #6b5363;
+}
+
+/* line 879, sass/style.scss */
+#slider-services {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100% !important;
+  height: auto !important;
+}
+/* line 885, sass/style.scss */
+#slider-services ul {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* line 890, sass/style.scss */
+#slider-services ul li {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+/* line 898, sass/style.scss */
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 53%;
+  z-index: 999;
+  display: block;
+  padding: 12px 10px;
+  width: 20px;
+  height: 20px;
+  background: #f9f9f9;
+  color: #636550;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid #636550;
+}
+
+/* line 915, sass/style.scss */
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  border-color: #c79029;
+}
+
+/* line 921, sass/style.scss */
+a.control_prev {
+  right: 0;
+  background-image: url("css/images/arrow-right.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 8px 19px;
+}
+
+/* line 929, sass/style.scss */
+a.control_next {
+  background-image: url("css/images/arrow-left.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 8px 19px;
+}
+
+/* line 943, sass/style.scss */
+#servicio-int .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 947, sass/style.scss */
+#servicio-int .filter_services {
+  padding: 15px 0 1px 0;
+  border-bottom: 1.3px solid #ddded6;
+  text-align: center;
+}
+/* line 951, sass/style.scss */
+#servicio-int .filter_services ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+/* line 955, sass/style.scss */
+#servicio-int .filter_services ul .item-services {
+  float: left;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-size: 13.5px;
+  letter-spacing: 1px;
+}
+/* line 961, sass/style.scss */
+#servicio-int .filter_services ul .item-services a {
+  color: #262a1b;
+}
+/* line 964, sass/style.scss */
+#servicio-int .filter_services ul .item-services a:hover {
+  color: #c79029;
+}
+/* line 968, sass/style.scss */
+#servicio-int .filter_services ul .item-services .selected {
+  color: #c79029;
+  border-bottom: 4px solid;
+  padding-bottom: 25px;
+}
+/* line 976, sass/style.scss */
+#servicio-int .services_list {
+  padding: 0;
+}
+/* line 978, sass/style.scss */
+#servicio-int .services_list li {
+  border-bottom: 1.3px solid #ddded6;
+  padding: 20px 40px 3em 40px;
+}
+/* line 981, sass/style.scss */
+#servicio-int .services_list li:last-child {
+  border-bottom: none;
+}
+/* line 984, sass/style.scss */
+#servicio-int .services_list li h1 {
+  text-transform: capitalize;
+  font-family: pt;
+}
+/* line 988, sass/style.scss */
+#servicio-int .services_list li .discount-notice {
+  font-size: 12px;
+  padding: 10px;
+  background-color: #e3dae0;
+  border-radius: 5px;
+  font-family: karla;
+  text-transform: initial;
+}
+/* line 996, sass/style.scss */
+#servicio-int .services_list li > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* line 998, sass/style.scss */
+#servicio-int .services_list li > div .item-description {
+  width: 80%;
+}
+/* line 1001, sass/style.scss */
+#servicio-int .services_list li > div .item-price {
+  width: 20%;
+}
+/* line 1003, sass/style.scss */
+#servicio-int .services_list li > div .item-price h2 {
+  font-family: pt;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  line-height: 15px;
+}
+/* line 1011, sass/style.scss */
+#servicio-int .services_list li > div .item-price .discount {
+  padding-bottom: 12px;
+}
+/* line 1014, sass/style.scss */
+#servicio-int .services_list li > div .item-price .since {
+  text-align: right;
+  font-family: karla;
+}
+/* line 1018, sass/style.scss */
+#servicio-int .services_list li > div .item-price .tachado {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+/* line 1032, sass/style.scss */
+#blog > h1 {
+  text-align: right;
+}
+/* line 1036, sass/style.scss */
+#blog > p {
+  text-align: right;
+  padding-bottom: 70px;
+}
+/* line 1040, sass/style.scss */
+#blog > div {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 0 6em 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1040, sass/style.scss */
+  #blog > div {
+    display: block;
+  }
+}
+/* line 1047, sass/style.scss */
+#blog > div article {
+  width: calc(100% / 3);
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+/* line 1051, sass/style.scss */
+#blog > div article:nth-child(3) {
+  display: none;
+}
+/* line 1054, sass/style.scss */
+#blog > div article div {
+  padding: 4em 4em 0 4em;
+  background: white;
+  box-sizing: border-box;
+}
+/* line 1058, sass/style.scss */
+#blog > div article div h1 {
+  font-size: 22px;
+  font-family: pt;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1047, sass/style.scss */
+  #blog > div article {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* line 1069, sass/style.scss */
+#blog .btn-blog {
+  text-align: center;
+  width: 200px;
+  text-transform: uppercase;
+  font-family: pt-bold;
+  letter-spacing: 1px;
+  border: 1px solid #c6c8b9;
+  background: #fdfcfa;
+  padding: 10px 15px 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  color: #636550;
+}
+/* line 1084, sass/style.scss */
+#blog .btn-blog:hover {
+  color: #c79029;
+}
+
+/* line 1090, sass/style.scss */
+#publicacion {
+  padding-top: 5em;
+}
+/* line 1092, sass/style.scss */
+#publicacion p {
+  padding-bottom: 3em;
+  line-height: 30px;
+}
+/* line 1101, sass/style.scss */
+#publicacion article .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 1104, sass/style.scss */
+#publicacion article .subtitulo a {
+  color: #c79029;
+}
+/* line 1106, sass/style.scss */
+#publicacion article .subtitulo a:hover {
+  color: #74bdc4;
+}
+/* line 1111, sass/style.scss */
+#publicacion article img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 3em;
+}
+/* line 1116, sass/style.scss */
+#publicacion article .contenedor-col {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* line 1123, sass/style.scss */
+.tags {
+  padding: 2em 0 5em 0;
+}
+/* line 1125, sass/style.scss */
+.tags a {
+  padding: 9px;
+  border: 1px solid #c6c8b9;
+  border-radius: 3px;
+  color: #636550;
+  font-family: pt-bold;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+/* line 1135, sass/style.scss */
+.tags a:hover {
+  color: #c79029;
+}
+
+/* line 1141, sass/style.scss */
+#author {
+  padding: 4em 0 3em 0;
+  border-top: 1px solid #c6c8b9;
+  border-bottom: 1px solid #c6c8b9;
+}
+/* line 1145, sass/style.scss */
+#author figure {
+  margin: 0;
+}
+/* line 1147, sass/style.scss */
+#author figure img {
+  width: inherit;
+  border-radius: 50%;
+  height: auto;
+  padding: 0;
+}
+/* line 1154, sass/style.scss */
+#author .info-author {
+  padding-left: 2em;
+}
+/* line 1156, sass/style.scss */
+#author .info-author h2 {
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  color: #474939;
+}
+
+/* line 1167, sass/style.scss */
+.blog-content h2 {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  padding: 25px 0 5px 0;
+}
+/* line 1170, sass/style.scss */
+.blog-content h2 a {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: inherit;
+  letter-spacing: 4px;
+  color: #c79029;
+  font-family: karla;
+  padding-bottom: 7em;
+}
+/* line 1172, sass/style.scss */
+.blog-content h2 a:hover {
+  text-decoration: underline;
+}
+/* line 1177, sass/style.scss */
+.blog-content h1 {
+  padding: 0 0 25px 0;
+  margin: 0;
+}
+/* line 1180, sass/style.scss */
+.blog-content h1 a {
+  color: #636550;
+}
+/* line 1183, sass/style.scss */
+.blog-content h1 a:hover {
+  color: #c79029;
+}
+
+/* line 1194, sass/style.scss */
+#comentarios .titulo-comentarios {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: pt;
+  padding: 1.5em 0;
+  margin: 0;
+}
+/* line 1201, sass/style.scss */
+#comentarios .lista-comentarios {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ddded6;
+}
+/* line 1206, sass/style.scss */
+#comentarios .lista-comentarios section .gravatar {
+  margin: 0;
+  padding-right: 2em;
+}
+/* line 1209, sass/style.scss */
+#comentarios .lista-comentarios section .gravatar img {
+  width: 100%;
+  max-width: 48px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid white;
+}
+/* line 1217, sass/style.scss */
+#comentarios .lista-comentarios section .border {
+  border-top: 1px solid #c6c8b9;
+  padding-top: 3em;
+}
+/* line 1221, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta {
+  position: relative;
+}
+/* line 1223, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .nombre-autor {
+  margin: 0 5px 0 0;
+  font-family: karla;
+  display: inline-block;
+  text-transform: capitalize;
+}
+/* line 1228, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .nombre-autor a {
+  color: #474939;
+}
+/* line 1232, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .fecha {
+  color: #7f8167;
+  font-family: pt;
+  padding-bottom: 3em;
+  display: block;
+}
+/* line 1238, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .comment-edit-link {
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #afb19d;
+}
+/* line 1244, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .comment-edit-link:hover {
+  color: #c79029;
+}
+/* line 1248, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .respuesta {
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+/* line 1252, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .respuesta a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #636550;
+  font-size: 11px;
+}
+/* line 1257, sass/style.scss */
+#comentarios .lista-comentarios section .comentario-meta .respuesta a:hover {
+  color: #74bdc4;
+}
+/* line 1264, sass/style.scss */
+#comentarios .lista-comentarios .children {
+  padding: 0 0 0 70px;
+  margin: 0;
+}
+/* line 1269, sass/style.scss */
+#comentarios .contenedor-col {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* line 1275, sass/style.scss */
+#respond form {
+  border-top: 1px solid #c6c8b9;
+  padding-top: 4em;
+}
+/* line 1278, sass/style.scss */
+#respond form label {
+  width: 100%;
+  display: block;
+  font-family: karla;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+  font-weight: 700;
+}
+/* line 1287, sass/style.scss */
+#respond form textarea, #respond form input {
+  overflow: auto;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #c6c8b9;
+  background: #f9f9f9;
+  padding: 10px 15px 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  margin: 1.5em 0 3em 0;
+}
+/* line 1297, sass/style.scss */
+#respond form textarea:focus, #respond form input:focus {
+  border-color: #c79029;
+}
+/* line 1301, sass/style.scss */
+#respond form input[type="submit"] {
+  width: 200px;
+  text-transform: uppercase;
+  font-family: pt-bold;
+  letter-spacing: 1px;
+  margin: 2em 0 3em 0;
+}
+/* line 1307, sass/style.scss */
+#respond form input[type="submit"]:hover {
+  color: #c79029;
+}
+
+/* line 1314, sass/style.scss */
+.navigation {
+  background-color: #ececec;
+  padding: 2em 0;
+}
+/* line 1317, sass/style.scss */
+.navigation .contenedor-col {
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* line 1319, sass/style.scss */
+.navigation .contenedor-col div {
+  width: calc(100% / 3);
+}
+/* line 1321, sass/style.scss */
+.navigation .contenedor-col div:nth-child(3) {
+  text-align: right;
+}
+/* line 1325, sass/style.scss */
+.navigation .contenedor-col .blog-name {
+  text-align: center;
+}
+/* line 1329, sass/style.scss */
+.navigation a {
+  text-transform: uppercase;
+  color: #636550;
+  font-family: pt-bold;
+  letter-spacing: 1px;
+}
+/* line 1334, sass/style.scss */
+.navigation a:hover {
+  color: #74bdc4;
+}
+
+/* line 1343, sass/style.scss */
+#blog-template {
+  padding-top: 5em;
+}
+/* line 1348, sass/style.scss */
+#blog-template .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 1351, sass/style.scss */
+#blog-template .subtitulo p {
+  font-family: karla;
+  letter-spacing: 4px;
+  font-size: 11px;
+}
+
+/* line 1359, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure, #thumb [class^="tqb-"]:nth-child(2) figure, #thumb [class^="tqb-"]:nth-child(3) figure, #thumb [class^="tqb-"]:nth-child(4) figure, #thumb [class^="tqb-"]:nth-child(5) figure, #thumb [class^="tqb-"]:nth-child(6) figure, #thumb [class^="tqb-"]:nth-child(7) figure, #thumb [class^="tqb-"]:nth-child(8) figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+}
+/* line 1364, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure img, #thumb [class^="tqb-"]:nth-child(2) figure img, #thumb [class^="tqb-"]:nth-child(3) figure img, #thumb [class^="tqb-"]:nth-child(4) figure img, #thumb [class^="tqb-"]:nth-child(5) figure img, #thumb [class^="tqb-"]:nth-child(6) figure img, #thumb [class^="tqb-"]:nth-child(7) figure img, #thumb [class^="tqb-"]:nth-child(8) figure img {
+  width: 150%;
+  height: auto;
+  margin: 0 -25%;
+}
+/* line 1369, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure img:hover, #thumb [class^="tqb-"]:nth-child(2) figure img:hover, #thumb [class^="tqb-"]:nth-child(3) figure img:hover, #thumb [class^="tqb-"]:nth-child(4) figure img:hover, #thumb [class^="tqb-"]:nth-child(5) figure img:hover, #thumb [class^="tqb-"]:nth-child(6) figure img:hover, #thumb [class^="tqb-"]:nth-child(7) figure img:hover, #thumb [class^="tqb-"]:nth-child(8) figure img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* line 1375, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure figcaption, #thumb [class^="tqb-"]:nth-child(2) figure figcaption, #thumb [class^="tqb-"]:nth-child(3) figure figcaption, #thumb [class^="tqb-"]:nth-child(4) figure figcaption, #thumb [class^="tqb-"]:nth-child(5) figure figcaption, #thumb [class^="tqb-"]:nth-child(6) figure figcaption, #thumb [class^="tqb-"]:nth-child(7) figure figcaption, #thumb [class^="tqb-"]:nth-child(8) figure figcaption {
+  position: absolute;
+  padding: 20px;
+  bottom: 0;
+  background-color: transparent !important;
+  background-image: -webkit-linear-gradient(bottom, #1b1d1f 0%, transparent 60%) !important;
+  background-image: -moz-linear-gradient(bottom, #1b1d1f 0%, transparent 60%) !important;
+  background-image: -o-linear-gradient(bottom, #1b1d1f 0%, transparent 60%) !important;
+  background-image: linear-gradient(to top, #1b1d1f 0%, rgba(0, 0, 0, 0) 60%) !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* line 1386, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(2) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(3) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(4) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(5) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(6) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(7) figure figcaption h1, #thumb [class^="tqb-"]:nth-child(8) figure figcaption h1 {
+  color: #ffffff;
+  padding: 0;
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: 2px;
+  font-family: pt;
+}
+/* line 1394, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(2) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(3) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(4) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(5) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(6) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(7) figure figcaption h2, #thumb [class^="tqb-"]:nth-child(8) figure figcaption h2 {
+  color: #ffffff;
+  margin: 0;
+  line-height: 1em;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+/* line 1401, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(2) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(3) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(4) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(5) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(6) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(7) figure figcaption h2 a, #thumb [class^="tqb-"]:nth-child(8) figure figcaption h2 a {
+  color: #ffffff;
+}
+
+/* line 1408, sass/style.scss */
+#thumb {
+  overflow: auto;
+  padding-bottom: .8em;
+}
+/* line 1411, sass/style.scss */
+#thumb:last-child {
+  padding-bottom: 5em;
+}
+/* line 1414, sass/style.scss */
+#thumb [class^="tqb-"] {
+  padding: .5em;
+  box-sizing: border-box;
+  float: left;
+}
+/* line 1419, sass/style.scss */
+#thumb [class^="tqb-"] a .blog-hover {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 560px;
+  background: rgba(199, 144, 41, 0.4);
+  opacity: 0;
+}
+/* line 1427, sass/style.scss */
+#thumb [class^="tqb-"] a:hover .blog-hover {
+  opacity: 1;
+}
+/* line 1431, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) {
+  width: 66.666666%;
+}
+/* line 1433, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(1) figure {
+  height: 564px;
+}
+/* line 1438, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(2), #thumb [class^="tqb-"]:nth-child(3), #thumb [class^="tqb-"]:nth-child(4) {
+  width: calc(100% / 3);
+}
+/* line 1440, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(2) figure, #thumb [class^="tqb-"]:nth-child(3) figure, #thumb [class^="tqb-"]:nth-child(4) figure {
+  height: 276px;
+}
+/* line 1445, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(5) {
+  width: 66.666666%;
+}
+/* line 1447, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(5) figure {
+  height: 276px;
+}
+/* line 1452, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(6), #thumb [class^="tqb-"]:nth-child(7), #thumb [class^="tqb-"]:nth-child(8) {
+  width: calc(100% / 3);
+}
+/* line 1454, sass/style.scss */
+#thumb [class^="tqb-"]:nth-child(6) figure, #thumb [class^="tqb-"]:nth-child(7) figure, #thumb [class^="tqb-"]:nth-child(8) figure {
+  height: 276px;
+}
+
+/* line 1464, sass/style.scss */
+#pages {
+  padding-top: 5em;
+}
+/* line 1469, sass/style.scss */
+#pages .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 1473, sass/style.scss */
+#pages p {
+  padding-bottom: 3em;
+  line-height: 30px;
+}
+
+/* line 1479, sass/style.scss */
+.one-half,
+.one-third,
+.two-third {
+  float: left;
+  padding-right: .7em;
+  padding-left: .7em;
+  box-sizing: border-box;
+}
+
+/* line 1488, sass/style.scss */
+.titulo-contenido {
+  text-align: left;
+  font-family: karla;
+}
+
+/* line 1494, sass/style.scss */
+.subtitulo-contenido {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+}
+
+/* line 1503, sass/style.scss */
+#nofound .titulo {
+  text-align: center;
+}
+/* line 1507, sass/style.scss */
+#nofound .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 1511, sass/style.scss */
+#nofound .title-404 {
+  text-align: center;
+  font-size: 8em;
+  padding: 0;
+  margin: 0;
+  color: #262a1b;
+}
+/* line 1517, sass/style.scss */
+#nofound .title-404 span {
+  display: block;
+}
+/* line 1521, sass/style.scss */
+#nofound div {
+  text-align: center;
+  margin: 4em 0;
+}
+/* line 1524, sass/style.scss */
+#nofound div .boton-back {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid;
+  letter-spacing: 1px;
+  font-family: pt;
+  font-size: 15px;
+  color: #262a1b;
+}
+/* line 1533, sass/style.scss */
+#nofound div .boton-back:hover {
+  background: #262a1b;
+  color: #ffffff;
+}
+
+/* line 1544, sass/style.scss */
+#search {
+  padding-top: 5em;
+}
+/* line 1549, sass/style.scss */
+#search .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 1552, sass/style.scss */
+#search .subtitulo a {
+  color: #c79029;
+}
+/* line 1556, sass/style.scss */
+#search form {
+  padding-bottom: 3em;
+}
+/* line 1558, sass/style.scss */
+#search form input[type='text'] {
+  width: 50%;
+  display: block;
+  margin: auto;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid #c6c8b9;
+  background: #f9f9f9;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  overflow: auto;
+}
+/* line 1569, sass/style.scss */
+#search form input[type='text']:focus {
+  border-color: #74bdc4;
+  color: #262a1b;
+}
+/* line 1574, sass/style.scss */
+#search form input[type='submit'] {
+  padding: 1em;
+  border: 1px solid #c6c8b9;
+  background: none;
+  color: #262a1b;
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: pt-bold;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+/* line 1589, sass/style.scss */
+#search form input[type='submit']:hover {
+  border-color: #c79029;
+  color: #c79029;
+}
+/* line 1595, sass/style.scss */
+#search .search-result {
+  padding-bottom: 3em;
+}
+/* line 1597, sass/style.scss */
+#search .search-result h2 {
+  padding: 0;
+  margin: 0;
+  font-family: karla;
+  text-align: center;
+  font-size: 20px;
+}
+/* line 1603, sass/style.scss */
+#search .search-result h2 a {
+  color: #262a1b;
+}
+/* line 1606, sass/style.scss */
+#search .search-result h2 a:hover {
+  text-decoration: line-through;
+}
+/* line 1611, sass/style.scss */
+#search .search-result h4 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 1616, sass/style.scss */
+#search .search-result h4 a {
+  color: #42492f;
+  letter-spacing: 1px;
+}
+/* line 1620, sass/style.scss */
+#search .search-result h4 a:hover {
+  color: #c79029;
+  text-decoration: line-through;
+}
+/* line 1627, sass/style.scss */
+#search .btn {
+  width: 190px;
+  margin: auto;
+}
+
+/* line 1636, sass/style.scss */
+#productos {
+  background-color: #f1f1f1;
+  position: relative;
+  padding: 50px 0;
+  margin-top: 5em;
+}
+/* line 1641, sass/style.scss */
+#productos #slider-productos {
+  height: 51px !important;
+}
+/* line 1643, sass/style.scss */
+#productos #slider-productos a.control_prev, #productos #slider-productos a.control_next {
+  background-color: #ececec;
+  border: none;
+  opacity: .5;
+}
+/* line 1648, sass/style.scss */
+#productos #slider-productos a.control_next {
+  background-position: 8px 0;
+  left: 2em;
+  top: 5.3em;
+}
+/* line 1653, sass/style.scss */
+#productos #slider-productos a.control_prev {
+  background-position: 8px 0;
+  right: 2em;
+  top: 5.3em;
+}
+/* line 1658, sass/style.scss */
+#productos #slider-productos .thumb-productos {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 1662, sass/style.scss */
+#productos #slider-productos .thumb-productos li {
+  width: calc(100% / 4);
+  padding: 0 .5em;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 1667, sass/style.scss */
+#productos #slider-productos .thumb-productos li a {
+  line-height: 100px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* line 1674, sass/style.scss */
+#productos #slider-productos .thumb-productos li a img {
+  width: 65%;
+  opacity: .3;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+  max-width: 220px;
+}
+/* line 1682, sass/style.scss */
+#productos #slider-productos .thumb-productos li a img:hover {
+  opacity: .7;
+}
+
+/* line 1695, sass/style.scss */
+#contact {
+  padding-top: 5em;
+}
+/* line 1700, sass/style.scss */
+#contact .subtitulo {
+  margin: 0;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #636550;
+  font-family: karla;
+  padding-bottom: 7em;
+  text-align: center;
+}
+/* line 1704, sass/style.scss */
+#contact .contenedor-col {
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* line 1706, sass/style.scss */
+#contact .contenedor-col article {
+  width: 400px;
+  padding-right: 5em;
+  box-sizing: border-box;
+}
+/* line 1711, sass/style.scss */
+#contact .contenedor-col #contact-form {
+  width: calc(100% - 400px);
+  box-sizing: border-box;
+  padding-bottom: 3em;
+}
+/* line 1715, sass/style.scss */
+#contact .contenedor-col #contact-form label {
+  width: 100%;
+  display: block;
+  font-family: karla;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+  font-weight: 700;
+}
+/* line 1723, sass/style.scss */
+#contact .contenedor-col #contact-form input, #contact .contenedor-col #contact-form textarea {
+  overflow: auto;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #c6c8b9;
+  background: #fdfcfa;
+  padding: 10px 15px 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  margin: 1.5em 0 10px 0;
+}
+/* line 1733, sass/style.scss */
+#contact .contenedor-col #contact-form input:focus, #contact .contenedor-col #contact-form textarea:focus {
+  border-color: #c79029;
+}
+/* line 1737, sass/style.scss */
+#contact .contenedor-col #contact-form input[type="submit"] {
+  width: 200px;
+  text-transform: uppercase;
+  font-family: pt-bold;
+  letter-spacing: 1px;
+  margin: 2em 0 10px 0;
+}
+/* line 1744, sass/style.scss */
+#contact .contenedor-col #contact-form input[type="submit"]:hover {
+  color: #c79029;
+}
+/* line 1748, sass/style.scss */
+#contact .contenedor-col #contact-form span.wpcf7-not-valid-tip {
+  padding-bottom: 2em;
+  color: #c79029;
+  font-family: pt;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+/* line 1755, sass/style.scss */
+#contact .contenedor-col #contact-form div.wpcf7-validation-errors {
+  border: none;
+  margin: 10px 0 3em 0;
+  padding: 0;
+  font-family: pt-bold;
+  letter-spacing: 0.5px;
+  color: #c79029;
+  font-size: 12.5px;
+}
+/* line 1764, sass/style.scss */
+#contact .contenedor-col #contact-form div.wpcf7-mail-sent-ok {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: pt-bold;
+  color: #c79029;
+}
+
+/* line 1779, sass/style.scss */
+#sub-footer {
+  background-color: #2b2f21;
+  color: #ffffff;
+  padding: 50px 0;
+}
+/* line 1783, sass/style.scss */
+#sub-footer .contenedor-col {
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* line 1785, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot {
+  width: calc(100% / 4);
+  padding-right: 35px;
+  box-sizing: border-box;
+}
+/* line 1789, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot h1 {
+  font-size: 14px;
+  padding-bottom: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 3px 0;
+}
+/* line 1795, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot h1.about-title {
+  font-size: 18px;
+  font-family: pt;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+/* line 1803, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot h2 {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  padding-bottom: 2em;
+  font-size: 15px;
+}
+/* line 1810, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot p {
+  color: #e8e8e5;
+}
+/* line 1813, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 1816, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot ul a {
+  font-size: 12.5px;
+  color: #e8e8e5;
+  font-family: pt;
+  letter-spacing: 1px;
+  display: block;
+}
+/* line 1823, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot ul a:hover {
+  color: #74bdc4;
+}
+/* line 1826, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot ul a span {
+  font-size: 12.5px;
+  display: inline-block;
+}
+/* line 1830, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot ul a i {
+  font-size: 16px;
+  padding-right: 15px;
+  width: 20px;
+}
+/* line 1836, sass/style.scss */
+#sub-footer .contenedor-col .sub-foot ul span {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  display: block;
+}
+
+/* line 1851, sass/style.scss */
+#footer {
+  background-color: #262a1b;
+}
+/* line 1853, sass/style.scss */
+#footer p {
+  color: #f9f9f9;
+}
+/* line 1856, sass/style.scss */
+#footer .contenedor-col {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2em 0;
+}
+/* line 1859, sass/style.scss */
+#footer .contenedor-col > div {
+  width: calc(100% / 2);
+}
+/* line 1861, sass/style.scss */
+#footer .contenedor-col > div a {
+  color: white;
+  text-decoration: line-through;
+}
+/* line 1865, sass/style.scss */
+#footer .contenedor-col > div a:hover {
+  color: #c79029;
+}
+/* line 1869, sass/style.scss */
+#footer .contenedor-col > div #back-to-top {
+  float: right;
+  color: #ffffff;
+  padding: 6px 10px;
+  font-size: 16px;
+  background: #2b2f21;
+  border-radius: 2px;
+}
+/* line 1877, sass/style.scss */
+#footer .contenedor-col > div #back-to-top:hover {
+  background-color: #1d2016;
+}
+/* line 1882, sass/style.scss */
+#footer .contenedor-col > div:nth-child(3) ul {
+  float: right;
+  position: static;
+}
+/* line 1886, sass/style.scss */
+#footer .contenedor-col > div:nth-child(3) ul i {
+  font-size: 17px;
+}
+/* line 1889, sass/style.scss */
+#footer .contenedor-col > div:nth-child(3) ul span {
+  display: none;
+}
+/* line 1897, sass/style.scss */
+#footer .footer-div h3 {
+  display: none;
+}
+/* line 1900, sass/style.scss */
+#footer .footer-div p {
+  font-family: karla;
+  font-size: 11px;
+  line-height: 33px;
+}
+/* line 1905, sass/style.scss */
+#footer .footer-div small {
+  font-family: pt;
+  color: #f9f9f9;
+  letter-spacing: 1px;
+}
+/* line 1909, sass/style.scss */
+#footer .footer-div small a {
+  color: #c79029;
+}
+/* line 1911, sass/style.scss */
+#footer .footer-div small a:hover {
+  text-decoration: underline;
+}
+/* line 1916, sass/style.scss */
+#footer .footer-div ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+/* line 1921, sass/style.scss */
+#footer .footer-div ul li {
+  padding-right: 35px;
+  line-height: 35px;
+}
+/* line 1924, sass/style.scss */
+#footer .footer-div ul li a {
+  color: #f9f9f9;
+  letter-spacing: 1px;
+  padding-bottom: 6px;
+}
+/* line 1928, sass/style.scss */
+#footer .footer-div ul li a:hover {
+  border-bottom: 2px solid;
+}
+
+/* line 1937, sass/style.scss */
+.contenedor-logo-footer {
+  text-align: center;
+}
+/* line 1939, sass/style.scss */
+.contenedor-logo-footer .footer-div {
+  padding-top: 1.5em;
+}

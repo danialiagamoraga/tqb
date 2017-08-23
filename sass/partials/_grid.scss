@@ -1,0 +1,72 @@
+$susy: (
+        columns: 12,
+        gutters: 1/5,
+        gutter-position: inside,
+);
+
+$small: max-width 767px;
+$medium: max-width 1024px;
+
+.col-1 {
+  @include span(1);
+  position: relative;
+}
+
+.col-2 {
+  @include span(2);
+  position: relative;
+}
+
+.col-3 {
+  @include span(3);
+  position: relative;
+}
+
+.col-4 {
+  @include span (4);
+  position: relative;
+}
+
+.col-5 {
+  @include span (5);
+  position: relative;
+}
+
+.col-6 {
+  @include span (6);
+  position: relative;
+}
+
+.col-7 {
+  @include span (7);
+  position: relative;
+}
+
+.col-8 {
+  @include span (8);
+  position: relative;
+}
+
+.col-9 {
+  @include span (9);
+  position: relative;
+}
+
+.col-10 {
+  @include span (10);
+  position: relative;
+}
+
+.col-11 {
+  @include span (12);
+  position: relative;
+}
+
+.col-12 {
+  @include span (12);
+  position: relative;
+}
+
+/*[class^="col-"] {
+  position: relative;
+}*/
