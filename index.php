@@ -187,7 +187,7 @@
             'post_type' => post,
             'nopaging' => false,
             'orderby' => date,
-            'order' => ASC,
+            'order' => 'DESC',
         );
         // The Query
         $query_blog = new WP_Query($args_blog);
@@ -216,7 +216,7 @@
         endwhile;
         wp_reset_query() ?>
     </div>
-    <a href="" class="btn-blog">Ir al Blog</a>
+    <a href="<?php echo esc_url(home_url('/')) ;?>" class="btn-blog">Ir al Blog</a>
 </section>
 <?php require_once('productos.php'); ?>
 <?php get_footer(); ?>

@@ -20,11 +20,11 @@
         </a>
     </div>
     <div class="col-4">
-        <?php if (get_theme_mod('tqb_logo')) : { ?>
+        <?php if (get_theme_mod('tqb_logo_2')) : { ?>
             <div class="logotipo-2">
                 <a href="<?php echo esc_url(home_url('/')); ?>"
                    title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" class="logotype">
-                    <img src="<?php echo esc_url(get_theme_mod('tqb_logo_3')); ?>"
+                    <img src="<?php echo esc_url(get_theme_mod('tqb_logo_2')); ?>"
                          alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" title="">
                 </a>
             </div> <!-- /logotype -->

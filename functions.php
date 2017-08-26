@@ -49,11 +49,11 @@ function tqb_theme_header($wp_customize)
 add_action('customize_register', 'tqb_theme_header');
 
 
-function tqb_theme_footer($wp_customize_2)
+function tqb_theme_responsive($wp_customize_2)
 {
 
-    $wp_customize_2->add_section('tqb_logo_footer', array(
-        'title' => __('Logo footer', 'tqb_footer'),
+    $wp_customize_2->add_section('tqb_logo_responsive', array(
+        'title' => __('Logo responsive', 'tqb_responsive'),
         'priority' => 30,
         'description' => 'Añade el Logotipo de tu página en el footer',
     ));
@@ -61,15 +61,15 @@ function tqb_theme_footer($wp_customize_2)
     $wp_customize_2->add_setting('tqb_logo_2');
 
     $wp_customize_2->add_control(new WP_Customize_Image_Control($wp_customize_2, 'tqb_logo_2', array(
-        'label' => __('Logo', 'tqb_footer'),
-        'section' => 'tqb_logo_footer',
+        'label' => __('Logo', 'tqb_responsive'),
+        'section' => 'tqb_logo_responsive',
         'settings' => 'tqb_logo_2',
     )));
 
 
 }
 
-add_action('customize_register', 'tqb_theme_pages');
+add_action('customize_register', 'tqb_theme_responsive');
 
 /* Menu's */
 /*----------------------------------------------------------------------*/

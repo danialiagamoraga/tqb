@@ -694,7 +694,6 @@ header {
   .portfolio-items {
     column-width: 320px;
     column-gap: 16px;
-    width: 90%;
     max-width: 1100px;
     padding: 0;
     margin: 50px auto 0 auto;
@@ -739,12 +738,20 @@ header {
           line-height: 20px;
         }
       }
+      @include media(handshelds) {
+        &:last-child {
+          margin-bottom: 5em;
+        }
+      }
     }
   }
 }
 
 #portfolio-int {
   .portfolio-detail {
+    @include media(handshelds) {
+      max-width: 100%;
+    }
     figure {
       margin: 0;
       padding-bottom: 5em;
@@ -789,6 +796,15 @@ header {
               }
             }
           }
+        }
+      }
+      @include media(handshelds) {
+        display: block;
+        .contenido, .info-complementaria {
+          width: 100%;
+        }
+        .info-complementaria {
+          padding: 50px 0 0 0;
         }
       }
     }
@@ -910,6 +926,9 @@ a.control_prev, a.control_next {
   font-size: 18px;
   cursor: pointer;
   border: 1px solid $base;
+  @include media(handshelds) {
+    top: 40%;
+  }
 }
 
 a.control_prev:hover, a.control_next:hover {
@@ -937,6 +956,7 @@ a.control_next {
 //servicios-interior
 
 #servicio-int {
+  padding-top: 5em;
   .titulo {
     @extend %titulo;
   }
@@ -949,11 +969,11 @@ a.control_next {
     border-bottom: 1.3px solid lighten($base, 50%);
     text-align: center;
     ul {
-      display: inline-block;
       padding: 0;
       margin: 0;
+      text-align: center;
       .item-services {
-        float: left;
+        display: inline-block;
         text-transform: uppercase;
         padding: 15px 20px;
         font-size: 13.5px;
@@ -968,9 +988,16 @@ a.control_next {
         .selected {
           color: $dorado;
           border-bottom: 4px solid;
-          padding-bottom: 25px;
+          padding-bottom: 17px;
+          @include media(handshelds) {
+            padding-bottom: 10px;
+
+          }
         }
       }
+    }
+    @include media(handshelds) {
+      max-width: 100%;
     }
   }
   .services_list {
@@ -997,9 +1024,12 @@ a.control_next {
         @include contenedor-columnas(nowrap);
         .item-description {
           width: 80%;
+          box-sizing: border-box;
+          padding-right: 20px;
         }
         .item-price {
           width: 20%;
+          box-sizing: border-box;
           h2 {
             font-family: pt;
             font-size: 2em;
@@ -1022,6 +1052,9 @@ a.control_next {
         }
       }
     }
+    @include media(handshelds) {
+      max-width: 100%;
+    }
   }
 }
 
@@ -1041,16 +1074,14 @@ a.control_next {
     display: flex;
     flex-wrap: nowrap;
     padding: 0 0 6em 0;
-    @include media(handshelds){
+    @include media(handshelds) {
       display: block;
+      padding: 0 0 2em 0;
     }
     article {
       width: calc(100% / 3);
       padding: 0 15px;
       box-sizing: border-box;
-      &:nth-child(3) {
-        display: none;
-      }
       div {
         padding: 4em 4em 0 4em;
         background: rgb(255, 255, 255);
@@ -1060,7 +1091,7 @@ a.control_next {
           font-family: pt;
         }
       }
-      @include media(handshelds){
+      @include media(handshelds) {
         width: 100%;
         margin-bottom: 20px;
       }
@@ -1083,6 +1114,9 @@ a.control_next {
     @extend %transition;
     &:hover {
       color: $dorado;
+    }
+    @include media(handshelds) {
+      margin-bottom: 4em;
     }
   }
 }
@@ -1362,10 +1396,9 @@ a.control_next {
   overflow: hidden;
   line-height: 0;
   img {
-    width: 150%;
+    width: 110%;
     height: auto;
     @extend %transition;
-    margin: 0 -25%;
     &:hover {
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
@@ -1408,6 +1441,10 @@ a.control_next {
 #thumb {
   overflow: auto;
   padding-bottom: .8em;
+  column-width: 346px;
+  column-gap: 16px;
+  max-width: 1100px;
+  margin: 50px auto 0 auto;
   &:last-child {
     padding-bottom: 5em;
   }
@@ -1415,45 +1452,20 @@ a.control_next {
     padding: .5em;
     box-sizing: border-box;
     float: left;
-    a {
-      .blog-hover {
-        z-index: 1;
-        position: absolute;
-        width: 100%;
-        height: 560px;
-        background: rgba($dorado, 0.4);
-        opacity: 0;
-      }
-      &:hover .blog-hover {
-        opacity: 1;
-      }
-    }
-    &:nth-child(1) {
-      width: 66.666666%;
-      figure {
-        @extend %blog-figure;
-        height: 564px;
-      }
-    }
-    &:nth-child(2), &:nth-child(3), &:nth-child(4) {
-      width: calc(100% / 3);
-      figure {
-        @extend %blog-figure;
-        height: 276px;
-      }
-    }
-    &:nth-child(5) {
-      width: 66.666666%;
-      figure {
-        @extend %blog-figure;
-        height: 276px;
-      }
-    }
-    &:nth-child(6), &:nth-child(7), &:nth-child(8) {
-      width: calc(100% / 3);
-      figure {
-        @extend %blog-figure;
-        height: 276px;
+    figure {
+      @extend %blog-figure;
+      a {
+        .blog-hover {
+          z-index: 1;
+          position: absolute;
+          width: 100%;
+          height: 560px;
+          background: rgba($dorado, 0.4);
+          opacity: 0;
+        }
+        &:hover .blog-hover {
+          opacity: 1;
+        }
       }
     }
   }
@@ -1469,10 +1481,16 @@ a.control_next {
   .subtitulo {
     @include subtitulo($base, 12px);
     text-align: center;
+
   }
   p {
     padding-bottom: 3em;
     line-height: 30px;
+  }
+  @include media(handshelds) {
+    .attachment-post-thumbnail {
+      padding-bottom: 5em;
+    }
   }
 }
 
@@ -1483,6 +1501,10 @@ a.control_next {
   padding-right: .7em;
   padding-left: .7em;
   box-sizing: border-box;
+  @include media(handshelds) {
+    float: none !important;
+    width: 100% !important;
+  }
 }
 
 .titulo-contenido {
@@ -1493,7 +1515,9 @@ a.control_next {
 
 .subtitulo-contenido {
   @include subtitulo($base, 12px);
-
+  @include media(handshelds) {
+    padding-bottom: 3em;
+  }
 }
 
 //404
@@ -1638,6 +1662,9 @@ a.control_next {
   position: relative;
   padding: 50px 0;
   margin-top: 5em;
+  @include media(handshelds) {
+    display: none;
+  }
   #slider-productos {
     height: 51px !important;
     a.control_prev, a.control_next {
@@ -1839,6 +1866,12 @@ a.control_next {
           text-transform: capitalize;
           padding-bottom: 5px;
           display: block;
+        }
+      }
+      @include media(handshelds) {
+        width: 50%;
+        &:nth-child(2), &:nth-child(3) {
+          display: none;
         }
       }
     }

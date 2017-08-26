@@ -30,7 +30,7 @@
 
 @mixin subtitulo($color, $tamaño) {
   margin: 0;
-  line-height: 11px;
+  line-height: 20px;
   text-transform: uppercase;
   font-size: $tamaño;
   letter-spacing: 4px;

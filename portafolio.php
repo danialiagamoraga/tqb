@@ -41,7 +41,7 @@ Template Name: Portafolio
                         // Get rid of the other data stored in the object, since it's not needed
                         unset($term);
                     }
-                    $tendencias = rtrim( $tendencias, ', ' ); ?>
+                    $tendencias = rtrim($tendencias, ', '); ?>
 
 
                     <figure class="item-portfolio wow fadeInUp"
@@ -55,7 +55,7 @@ Template Name: Portafolio
                             <h1><?php echo get_the_title(); ?></h1>
                         </figcaption>
                     </figure>
-                    <?php $seconds+=2; endwhile;
+                    <?php $seconds += 2; endwhile;
                 wp_reset_postdata(); ?>
                 </div>
             <?php endif; endwhile; endif; ?>
