@@ -94,7 +94,7 @@ function staff_prefix($meta_boxes)
                 'type' => 'url',
             ),
             array(
-                'id' => 'Instagram',
+                'id' => 'instagram',
                 'name' => __('Instagram', 'textdomain'),
                 'type' => 'url',
             ),
@@ -119,8 +119,8 @@ function staff_prefix($meta_boxes)
                 'type' => 'url',
             ),
             array(
-                'id' => 'flicker',
-                'name' => __('Flicker', 'textdomain'),
+                'id' => 'flickr',
+                'name' => __('flickr', 'textdomain'),
                 'type' => 'url',
             ),
             array(
@@ -144,7 +144,7 @@ function staff_prefix($meta_boxes)
                 'type' => 'url',
             ),
             array(
-                'id' => 'soundsloud',
+                'id' => 'soundcloud',
                 'name' => __('SoundCloud', 'textdomain'),
                 'type' => 'url',
             ),

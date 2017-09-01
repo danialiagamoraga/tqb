@@ -31,7 +31,7 @@ Template Name: Archives
             <h1 class="titulo"><?php _e('Autor', 'admincore'); ?></h1>
             <h3 class="subtitulo">Peluquería Te Quiero Bonita</h3>
             <?php /* If this is a paged archive */
-        } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+        } elseif (empty($_GET['paged']) && !empty($_GET['paged'])) { ?>
             <h1 class="titulo">Blog TQB</h1>
             <h3 class="subtitulo">Peluquería Te Quiero Bonita</h3>
         <?php } ?>

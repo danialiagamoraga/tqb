@@ -28,7 +28,7 @@
             <h1 class="titulo"><?php the_author(); ?> </h1>
             <h3 class="subtitulo">Peluquería Te Quiero Bonita · Contenido por autor</h3>
             <?php /* If this is a paged archive */
-        } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+        } elseif (isset($_GET['paged']) && isset($_GET['paged'])) { ?>
             <h1 class="titulo">Blog TQB</h1>
             <h3 class="subtitulo">TENDENCIAS EN LOOK, MAQUILLAJE Y PEINADO DE LA MANO DEL STAFF DE TQB.</h3>
         <?php } ?>
