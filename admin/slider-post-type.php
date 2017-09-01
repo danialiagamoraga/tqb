@@ -6,7 +6,7 @@ function slider_inicio()
     $labels = array(
         'name' => 'Slider',
         'singular_name' => 'Slide',
-        'menu_name' => 'Slider Inicio',
+        'menu_name' => 'Slider',
         'name_admin_bar' => 'Slider',
         'archives' => 'Item Archives',
         'parent_item_colon' => 'Parent Item:',
@@ -39,7 +39,7 @@ function slider_inicio()
         'public' => true,
         'show_ui' => true,
         'show_in_menu' => true,
-        'menu_position' => 4,
+        'menu_position' => 11,
         'menu_icon' => 'dashicons-format-video',
         'show_in_admin_bar' => false,
         'show_in_nav_menus' => false,

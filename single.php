@@ -8,16 +8,20 @@
             <h1 class="titulo"><?php the_title(); ?></h1>
             <h2 class="subtitulo"><?php the_time('j \d\e F \d\e Y'); ?> | En <?php the_category(', ') ?> |
                 <span>Por <span class=""><?php the_author(); ?></span></span></h2>
-            <?php if (has_post_thumbnail()) {
-                the_post_thumbnail();
-            } ?>
+            <div class="wow fadeInRight">
+
+                <?php if (has_post_thumbnail()) {
+                    the_post_thumbnail();
+                } ?>
+            </div>
+
             <?php the_content(''); ?>
 
             <div class="tags">
                 <?php the_tags('', ' '); ?>
             </div>
 
-            <div id="author" class="contenedor-col">
+            <div id="author" class="contenedor-col wow fadeInRight">
                 <figure><?php echo get_avatar($id, $size = '96', '', $alt = 'Te quiero bonita - avatar', ''); ?></figure>
                 <article class="info-author">
                     <h2><?php the_author_meta('nickname'); ?></h2>

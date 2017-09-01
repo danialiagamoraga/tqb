@@ -4,17 +4,16 @@
  * @package WordPress
  */
 ?>
-<div class="contenedor">
-    <div id="comentarios">
-        <?php if (post_password_required()) : ?>
+<div id="comentarios" class="contenedor wow fadeInLeft">
+
+    <?php if (post_password_required()) : ?>
         <p class="nopassword"><?php _e('This post is password protected. Enter the password to view any comments.', 'admincore'); ?></p>
-    </div><!-- #comments -->
-    <?php
-    /* Stop the rest of comments.php from being processed,
-     * but don't kill the script entirely -- we still have
-     * to fully load the template.
-     */
-    return;
+        <?php
+        /* Stop the rest of comments.php from being processed,
+         * but don't kill the script entirely -- we still have
+         * to fully load the template.
+         */
+        return;
     endif;
     ?>
 
@@ -69,8 +68,8 @@
         'must_log_in' => '<p class="must-log-in">' . sprintf(__('Debes estas <a href="%s">registrado</a> para realizar un comentario.', 'admincore'), wp_login_url(apply_filters('the_permalink', get_permalink()))) . '</p>',
         'logged_in_as' => '',
         'fields' => apply_filters('comment_form_default_fields', array(
-            'author' => '<label for="author">' . __('Nombre', 'admincore') . '</label> ' . ($req? '<span class="required">*</span>' : '') . '<input id="author" name="author" type="text" value="' . esc_attr($commenter['comment_author']) . '" size="30"' . $aria_req . ' />',
-            'email' => '<label for="email">' . __('Email', 'admincore') . '</label> ' . ($req? '<span class="required">*</span>' : '') . '<input id="email" name="email" type="text" value="' . esc_attr($commenter['comment_author_email']) . '" size="30"' . $aria_req . ' />'/*,
+            'author' => '<label for="author">' . __('Nombre', 'admincore') . '</label> ' . ($req ? '<span class="required">*</span>' : '') . '<input id="author" name="author" type="text" value="' . esc_attr($commenter['comment_author']) . '" size="30"' . $aria_req . ' />',
+            'email' => '<label for="email">' . __('Email', 'admincore') . '</label> ' . ($req ? '<span class="required">*</span>' : '') . '<input id="email" name="email" type="text" value="' . esc_attr($commenter['comment_author_email']) . '" size="30"' . $aria_req . ' />'/*,
 		'url' => '<p class="comment-form-url"><label for="url">' . __( 'Website', 'admincore' ) . '</label>' . '<input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>' */))
     );
 

@@ -41,12 +41,12 @@
                      data-wow-delay="<?php echo $seconds ?>ms">
                 <figure>
                     <a href="<?php the_permalink(); ?>">
-                        <!--<div class="blog-hover"><h3>Leer publicacion</h3></div> -->
+                        <div class="bg-hover"></div>
                         <?php the_post_thumbnail() ?>
-                        <figcaption>
+                        <div class="bg-black">
                             <h2><?php the_tags('#TQB: '); ?></h2>
                             <h1><?php the_title() ?></h1>
-                        </figcaption>
+                        </div>
                     </a>
                 </figure>
             </article>

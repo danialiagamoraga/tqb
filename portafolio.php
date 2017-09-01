@@ -48,12 +48,13 @@ Template Name: Portafolio
                             data-wow-delay="<?php echo $seconds; ?>ms">
                         <?php echo get_the_post_thumbnail('', '', ''); ?>
 
-                        <a href="<?php the_permalink() ?>" class="link-item"
-                           title="<?php the_title_attribute(); ?>"></a>
-                        <figcaption class="title-item">
-                            <span><?php echo $tendencias; ?></span>
-                            <h1><?php echo get_the_title(); ?></h1>
-                        </figcaption>
+                        <a href="<?php the_permalink() ?>" class="link-item" title="<?php the_title_attribute(); ?>">
+                            <div class="bg-item"></div>
+                            <div class="title-item">
+                                <span><?php echo $tendencias; ?></span>
+                                <h1><?php echo get_the_title(); ?></h1>
+                            </div>
+                        </a>
                     </figure>
                     <?php $seconds += 2; endwhile;
                 wp_reset_postdata(); ?>

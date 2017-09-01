@@ -3,6 +3,7 @@ require_once(get_template_directory() . '/admin/portafolio-post-type.php');
 require_once(get_template_directory() . '/admin/servicios-post-type.php');
 require_once(get_template_directory() . '/admin/productos-post-type.php');
 require_once(get_template_directory() . '/admin/slider-post-type.php');
+require_once(get_template_directory() . '/admin/staff-post-type.php');
 /* Limitar caracteres */
 /*----------------------------------------------------------------------*/
 

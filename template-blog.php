@@ -27,17 +27,16 @@ get_header('homepage'); ?>
 
         <div id="thumb" class="thumb-content">
             <?php while (have_posts()): the_post(); ?>
-                <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft"
-                         data-wow-delay="<?php echo $seconds ?>ms">
+                <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft" data-wow-delay="<?php echo $seconds ?>ms" >
                     <figure>
                         <a href="<?php the_permalink(); ?>">
-                            <!--<div class="blog-hover"><h3>Leer publicacion</h3></div> -->
-                            <?php the_post_thumbnail() ?>
+                            <div class="bg-hover"></div>
+                            <?php the_post_thumbnail(); ?>
+                            <div class="bg-black">
+                                <h2><?php the_tags('#TQB: '); ?></h2>
+                                <h1><?php the_title(); ?></h1>
+                            </div>
                         </a>
-                        <figcaption>
-                            <h2><?php the_tags('#TQB: '); ?></h2>
-                            <h1><?php the_title() ?></h1>
-                        </figcaption>
                     </figure>
                 </article>
                 <?php $index++;

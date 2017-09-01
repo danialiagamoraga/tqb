@@ -25,6 +25,7 @@
     <link href="<?php bloginfo('stylesheet_url') ?>" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('stylesheet_directory'); ?>/css/hamburgler.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('stylesheet_directory'); ?>/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('stylesheet_directory'); ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <?php if (is_home() || is_front_page()) { ?>
         <link href="<?php bloginfo('stylesheet_directory'); ?>/css/jquery.bxslider.min.css" rel="stylesheet"

@@ -39,7 +39,7 @@ function tqb_productos() {
         'public'                => true,
         'show_ui'               => true,
         'show_in_menu'          => true,
-        'menu_position'         => 5,
+        'menu_position'         => 24,
         'menu_icon'             => 'dashicons-cart',
         'show_in_admin_bar'     => true,
         'show_in_nav_menus'     => true,
