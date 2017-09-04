@@ -609,32 +609,51 @@ header {
 //Staff
 
 #staff {
+  padding: 3em 0 0 0;
+  border-top: 1px solid lighten($negro, 80%);
   .titulo {
     @extend %titulo;
   }
-  .integrante-tqb {
-    .name-int {
-      font-family: pt;
-      font-size: 20px;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-    }
-    .cargo-int {
-      text-align: center;
-      padding: 0;
-      margin: 0;
-      font-size: 14px;
-    }
-    .rrss {
-      text-align: center;
-      padding: 0;
-      li {
-        display: inline-block;
-        padding: 0 10px;
-        a {
-          color: $negro;
-          font-size: 16px;
+  .contenedor-col {
+    @include contenedor-columnas(wrap);
+    .integrante-tqb {
+      width: calc(100% / 3);
+      box-sizing: border-box;
+      padding: 40px 20px 35px 20px;
+      margin: auto;
+      .name-int {
+        font-family: pt;
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        color: $negro;
+      }
+      .cargo-int {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        color: lighten($negro, 10%);
+      }
+      .description-int {
+        text-align: center;
+        padding: 3em 20px 0 20px;
+      }
+      .rrss {
+        text-align: center;
+        padding: 0;
+        li {
+          display: inline-block;
+          padding: 0 10px;
+          a {
+            color: $negro;
+            font-size: 16px;
+            @extend %transition;
+            &:hover {
+              color: $morado;
+            }
+          }
         }
       }
     }
