@@ -10,7 +10,7 @@ get_header('homepage'); ?>
         the_post(); ?>
         <h1 class="titulo"><?php the_title(); ?></h1>
         <h2 class="subtitulo"><?php echo get_the_excerpt($post->ID); ?></h2>
-        <?php the_content(); ?>
+        <div class="wow fadeInUp"><?php the_content(); ?></div>
     <?php endwhile; ?>
     <?php endif; ?>
 </section>
@@ -24,6 +24,7 @@ get_header('homepage'); ?>
         'orderby' => rand,
         'order' => ASC,
     );
+    $seconds = 2;
     // The Query
     $query_productos = new WP_Query($args_staff); ?>
     <div class="contenedor-col">
@@ -32,7 +33,7 @@ get_header('homepage'); ?>
             <?php
             $nombre = get_post_meta($post->ID, "nombre", true);
             $cargo = get_post_meta($post->ID, "rol", true);
-            $frase = get_post_meta($post->ID, "frase", true);
+            $bio = get_post_meta($post->ID, "bio", true);
 
             $facebook = get_post_meta($post->ID, "facebook", true);
             $twitter = get_post_meta($post->ID, "twitter", true);
@@ -47,9 +48,10 @@ get_header('homepage'); ?>
             $snapchat = get_post_meta($post->ID, "snapchat", true);
             $deviantart = get_post_meta($post->ID, "deviantart", true);
             $soundcloud = get_post_meta($post->ID, "soundcloud", true);
+
             ?>
 
-            <article class="integrante-tqb">
+            <article class="integrante-tqb wow fadeInLeft" data-wow-delay="<?php echo $seconds ?>ms">
                 <?php if (!empty($nombre)) { ?>
                     <h1 class="name-int"><?php echo $nombre; ?></h1>
                 <?php }; ?>
@@ -58,8 +60,8 @@ get_header('homepage'); ?>
                     <h2 class="cargo-int">· <?php echo $cargo; ?> ·</h2>
                 <?php }; ?>
 
-                <?php if (!empty($frase)) { ?>
-                    <p class="description-int">"<?php echo $frase; ?>"</p>
+                <?php if (!empty($bio)) { ?>
+                    <p class="description-int">"<?php echo $bio; ?>"</p>
                 <?php }; ?>
 
 
@@ -142,7 +144,7 @@ get_header('homepage'); ?>
                 </ul>
 
             </article>
-        <?php endwhile; endif; ?>
+        <?php $seconds *= 2.5; endwhile; endif; ?>
     </div>
 </section>
 

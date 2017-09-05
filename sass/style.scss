@@ -258,13 +258,13 @@ header {
 .mobilenav {
   a:hover {
     text-decoration: line-through;
-    background-image: url("images/scissor-left.png");
+    background-image: url("images/scissor.png");
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: 100% 50%;
   }
   .active a {
-    background-image: url("images/scissor-left.png");
+    background-image: url("images/scissor.png");
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: 100% 50%;
@@ -620,7 +620,14 @@ header {
       width: calc(100% / 3);
       box-sizing: border-box;
       padding: 40px 20px 35px 20px;
-      margin: auto;
+      margin: 0 auto;
+      @include media(tablet) {
+        width: calc(100% / 2);
+      }
+      @include media(phones) {
+        width: 100%;
+        padding: 40px 0 35px 0;
+      }
       .name-int {
         font-family: pt;
         font-size: 20px;
@@ -635,10 +642,16 @@ header {
         margin: 0;
         font-size: 14px;
         color: lighten($negro, 10%);
+        @include media(phones) {
+          font-size: 13px;
+        }
       }
       .description-int {
         text-align: center;
         padding: 3em 20px 0 20px;
+        @include media(phones) {
+          padding: 3em 0 0 0;
+        }
       }
       .rrss {
         text-align: center;
@@ -651,7 +664,7 @@ header {
             font-size: 16px;
             @extend %transition;
             &:hover {
-              color: $morado;
+              color: $dorado;
             }
           }
         }
@@ -823,7 +836,6 @@ header {
         width: 100%;
         height: 100%;
         opacity: 0;
-        @extend %transition;
         cursor: auto;
         &:hover {
           opacity: 1;
@@ -833,6 +845,7 @@ header {
           mix-blend-mode: color;
           width: 100%;
           height: 100%;
+          @extend %transition;
         }
       }
       .title-item {
@@ -1176,6 +1189,9 @@ a.control_next {
           }
           .discount {
             padding-bottom: 12px;
+            @include media(phones) {
+              text-align: left;
+            }
           }
           .since {
             text-align: right;
@@ -1572,61 +1588,50 @@ a.control_next {
       position: relative;
       overflow: hidden;
       line-height: 0;
-      > a {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .link-blog {
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        cursor: auto;
         @extend %transition;
         &:hover {
           .bg-hover {
             opacity: 1;
           }
         }
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      .bg-black {
-        position: absolute;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0) !important;
-        background-image: -webkit-linear-gradient(bottom, rgb(27, 29, 31) 0%, rgba(0, 0, 0, 0) 100%) !important;
-        background-image: -moz-linear-gradient(bottom, #1b1d1f 0%, transparent 100%) !important;
-        background-image: -o-linear-gradient(bottom, #1b1d1f 0%, transparent 100%) !important;
-        background-image: linear-gradient(to top, rgb(27, 29, 31) 0%, rgba(0, 0, 0, 0) 100%) !important;
-        width: 100%;
-        height: 100px;
-        box-sizing: border-box;
-        display: block;
-        h1 {
-          color: $blanco;
-          font-size: 20px;
-          margin: 0;
-          letter-spacing: 1px;
-          font-family: pt;
-          box-sizing: border-box;
-          padding: 0 20px 0 20px;
-        }
-        h2 {
-          color: $blanco;
-          margin: 0;
-          line-height: 1em;
-          font-size: 11px;
-          letter-spacing: 2px;
-          text-transform: uppercase;
-          box-sizing: border-box;
-          padding: 30px 20px 5px 20px;
-          a {
+        .content-blog {
+          position: absolute;
+          bottom: 0;
+          padding: 3.5em 3em;
+          h1 {
             color: $blanco;
+            font-size: 20px;
+            margin: 0;
+            letter-spacing: 1px;
+            font-family: pt;
+            box-sizing: border-box;
+            padding: 0 20px 0 20px;
+          }
+          h2 {
+            color: $blanco;
+            margin: 0;
+            line-height: 1em;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            box-sizing: border-box;
+            padding: 30px 20px 5px 20px;
+            a {
+              color: $blanco;
+            }
           }
         }
-      }
-      .bg-hover {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background: $dorado;
-        mix-blend-mode: color;
-        opacity: 0;
-        @extend %transition;
       }
     }
   }

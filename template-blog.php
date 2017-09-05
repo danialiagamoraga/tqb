@@ -21,18 +21,18 @@ get_header('homepage'); ?>
         <?php
         $index = 1;
         $seconds = 1;
-        query_posts('post_type=post&post_status=publish&posts_per_page=8&paged=' . get_query_var('paged')); ?>
+        query_posts('post_type=post&post_status=publish&posts_per_page=8'); ?>
         <?php if (have_posts()): ?>
-        <?php $post = $posts[0]; ?>
 
         <div id="thumb" class="thumb-content">
             <?php while (have_posts()): the_post(); ?>
-                <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft" data-wow-delay="<?php echo $seconds ?>ms" >
+                <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft"
+                         data-wow-delay="<?php echo $seconds ?>ms">
                     <figure>
-                        <a href="<?php the_permalink(); ?>">
+                        <?php the_post_thumbnail(); ?>
+                        <a href="<?php the_permalink(); ?>" class="link-blog">
                             <div class="bg-hover"></div>
-                            <?php the_post_thumbnail(); ?>
-                            <div class="bg-black">
+                            <div class="content-blog">
                                 <h2><?php the_tags('#TQB: '); ?></h2>
                                 <h1><?php the_title(); ?></h1>
                             </div>

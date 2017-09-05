@@ -72,8 +72,8 @@ function staff_prefix($meta_boxes)
                 'type' => 'text',
             ),
             array(
-                'id' => 'frase',
-                'name' => __('Descripción', 'textdomain'),
+                'id' => 'bio',
+                'name' => __('Breve biografía', 'textdomain'),
                 'type' => 'textarea',
             ),
         ),

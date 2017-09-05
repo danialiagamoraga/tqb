@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70c6770b-d8fe-4394-b778-b1e990818ead" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brush-vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-tequierobonita.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/makeup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mirror.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/nail-polish.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/rose-tqb-one.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scissor-left.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7b7a504dcaff3c395aaa341e21d3221220a9f72f/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/7b7a504dcaff3c395aaa341e21d3221220a9f72f/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshot.png" afterPath="$PROJECT_DIR$/screenshot.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.php" afterPath="$PROJECT_DIR$/about-us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/staff-post-type.php" afterPath="$PROJECT_DIR$/admin/staff-post-type.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-blog.php" afterPath="$PROJECT_DIR$/template-blog.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,31 +33,34 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="611" column="20" lean-forward="false" selection-start-line="611" selection-start-column="20" selection-end-line="611" selection-end-column="20" />
+            <state relative-caret-position="196">
+              <caret line="1599" column="21" lean-forward="false" selection-start-line="1599" selection-start-column="21" selection-end-line="1599" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about-us.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about-us.php">
+      <file leaf-file-name="template-blog.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template-blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staff-post-type.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/staff-post-type.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
-                <marker date="1504555787000" expanded="true" signature="970:986" ph="Insert into item... " />
+                <marker date="1504569641000" expanded="true" signature="843:1394" ph="..." />
+                <marker date="1504569641000" expanded="true" signature="1000:1394" ph="..." />
+                <marker date="1504569641000" expanded="true" signature="1096:1394" ph="..." />
+                <marker date="1504569641000" expanded="true" signature="1230:1394" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portafolio.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portafolio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,10 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>%blog-figure</find>
-      <find>linear-gradient(to top, rgb(27, 29, 31) 0%, rgba(0, 0, 0, 0) 60%) !important</find>
-      <find>hid</find>
-      <find>mix</find>
       <find>blog</find>
       <find>%titulo</find>
       <find>#publicacion</find>
@@ -101,9 +110,13 @@
       <find>edit i</find>
       <find>bg-item</find>
       <find>isset</find>
-      <find>staff</find>
       <find>@mixin</find>
       <find>@</find>
+      <find>scis</find>
+      <find>pattern_dot</find>
+      <find>staff</find>
+      <find>bg-black</find>
+      <find>#thumb</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -163,7 +176,6 @@
         <option value="$PROJECT_DIR$/comments.php" />
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/sass/partials/_mixins.scss" />
-        <option value="$PROJECT_DIR$/template-blog.php" />
         <option value="$PROJECT_DIR$/js/assets.js" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/admin/servicios-post-type.php" />
@@ -177,8 +189,9 @@
         <option value="$PROJECT_DIR$/sass/partials/_base.scss" />
         <option value="$PROJECT_DIR$/.sass-cache/archive.php" />
         <option value="$PROJECT_DIR$/archive.php" />
-        <option value="$PROJECT_DIR$/admin/staff-post-type.php" />
+        <option value="$PROJECT_DIR$/template-blog.php" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/admin/staff-post-type.php" />
         <option value="$PROJECT_DIR$/about-us.php" />
       </list>
     </option>
@@ -418,12 +431,12 @@
       <workItem from="1503932192713" duration="10664000" />
       <workItem from="1504110103672" duration="15380000" />
       <workItem from="1504232743319" duration="1407000" />
-      <workItem from="1504554027635" duration="3455000" />
+      <workItem from="1504554027635" duration="7309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540313000" />
+    <option name="totallyTimeSpent" value="544167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +492,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/about-us.php</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -639,14 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portafolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servicios.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -717,14 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -811,29 +808,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portafolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="63" column="63" lean-forward="false" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="611" column="20" lean-forward="false" selection-start-line="611" selection-start-column="20" selection-end-line="611" selection-end-column="20" />
+        <state relative-caret-position="196">
+          <caret line="1599" column="21" lean-forward="false" selection-start-line="1599" selection-start-column="21" selection-end-line="1599" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/staff-post-type.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="30" />
+        <state relative-caret-position="506">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="28" />
           <folding>
-            <marker date="1504555787000" expanded="true" signature="970:986" ph="Insert into item... " />
+            <marker date="1504569942000" expanded="true" signature="970:986" ph="Insert into item... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-us.php">
+    <entry file="file://$PROJECT_DIR$/template-blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <marker date="1504569641000" expanded="true" signature="843:1394" ph="..." />
+            <marker date="1504569641000" expanded="true" signature="1000:1394" ph="..." />
+            <marker date="1504569641000" expanded="true" signature="1096:1394" ph="..." />
+            <marker date="1504569641000" expanded="true" signature="1230:1394" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
