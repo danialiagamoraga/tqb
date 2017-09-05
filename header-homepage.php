@@ -38,7 +38,7 @@
                     randomStart: false,
                     controls: true,
                     auto: true,
-                    pause: 10000000000000,
+                    pause: 10000,
                 });
             });
         </script>
