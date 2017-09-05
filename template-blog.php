@@ -21,26 +21,30 @@ get_header('homepage'); ?>
         <?php
         $index = 1;
         $seconds = 1;
-        query_posts('post_type=post&post_status=publish&posts_per_page=8'); ?>
-        <?php if (have_posts()): ?>
-
+        query_posts('post_type=post&post_status=publish&paged=' . get_query_var('paged'));?>
         <div id="thumb" class="thumb-content">
-            <?php while (have_posts()): the_post(); ?>
-                <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft"
-                         data-wow-delay="<?php echo $seconds ?>ms">
-                    <figure>
-                        <?php the_post_thumbnail(); ?>
-                        <a href="<?php the_permalink(); ?>" class="link-blog">
-                            <div class="bg-hover"></div>
-                            <div class="content-blog">
-                                <h2><?php the_tags('#TQB: '); ?></h2>
-                                <h1><?php the_title(); ?></h1>
-                            </div>
-                        </a>
-                    </figure>
-                </article>
-                <?php $index++;
-                $seconds *= 2.5;endwhile;
+            <?php if (have_posts()): ?>
+                <?php while (have_posts()): the_post(); ?>
+                    <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft"
+                             data-wow-delay="<?php echo $seconds ?>ms">
+                        <figure>
+                            <?php if (has_post_thumbnail()) {
+                                the_post_thumbnail();
+                            } else {
+                                echo '<div class="bg-blog"></div>';
+                            } ?>
+                            <a href="<?php the_permalink() ?>" class="link-blog"
+                               title="<?php the_title_attribute(); ?>">
+                                <div class="bg-hover"></div>
+                                <div class="content-blog">
+                                    <span><?php the_time('j \d\e F \d\e Y'); ?> </span>
+                                    <h1><?php the_title(); ?></h1>
+                                </div>
+                            </a>
+                        </figure>
+                    </article>
+                    <?php $index++;
+                    $seconds *= 2.5;endwhile;
             endif; ?>
         </div>
 

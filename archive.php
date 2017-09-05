@@ -40,12 +40,17 @@
             <article id="post-<?php the_ID() ?>" class="tqb-<?php echo $index ?> wow fadeInLeft"
                      data-wow-delay="<?php echo $seconds ?>ms">
                 <figure>
-                    <a href="<?php the_permalink(); ?>">
+                    <?php if (has_post_thumbnail()) {
+                        the_post_thumbnail();
+                    } else {
+                        echo '<div class="bg-blog"></div>';
+                    } ?>
+                    <a href="<?php the_permalink() ?>" class="link-blog"
+                       title="<?php the_title_attribute(); ?>">
                         <div class="bg-hover"></div>
-                        <?php the_post_thumbnail() ?>
-                        <div class="bg-black">
-                            <h2><?php the_tags('#TQB: '); ?></h2>
-                            <h1><?php the_title() ?></h1>
+                        <div class="content-blog">
+                            <span><?php the_time('j \d\e F \d\e Y'); ?> </span>
+                            <h1><?php the_title(); ?></h1>
                         </div>
                     </a>
                 </figure>

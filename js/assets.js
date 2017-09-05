@@ -34,13 +34,6 @@ $(document).ready(function () {
     } else {
         $(".title-item").hide().fadeOut();
     }
-
-    if ($(".thumb-content figure a").hover()) {
-        console.log('holas');
-        $(".bg-black").hide().fadeOut();
-    } else {
-        $(".bg-black").show().fadeIn();
-    }
 });
 
 
