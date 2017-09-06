@@ -1387,7 +1387,7 @@ header nav ul li a:hover {
 @media (max-width: 480px) {
   /* line 525, sass/style.scss */
   .bxslider figure img {
-    right: 170%;
+    right: 110%;
   }
 }
 
