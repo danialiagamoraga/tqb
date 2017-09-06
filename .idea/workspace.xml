@@ -4,8 +4,7 @@
     <list default="true" id="70c6770b-d8fe-4394-b778-b1e990818ead" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1e1eee74e2994708ea929afaa221aec83d2d8e98/_mixins.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1e1eee74e2994708ea929afaa221aec83d2d8e98/_mixins.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7b7a504dcaff3c395aaa341e21d3221220a9f72f/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/7b7a504dcaff3c395aaa341e21d3221220a9f72f/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.bxslider.min.css" afterPath="$PROJECT_DIR$/css/jquery.bxslider.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-homepage.php" afterPath="$PROJECT_DIR$/header-homepage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_mixins.scss" afterPath="$PROJECT_DIR$/sass/partials/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
@@ -25,57 +24,9 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="1850" column="14" lean-forward="false" selection-start-line="1850" selection-start-column="14" selection-end-line="1850" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="822" column="24" lean-forward="false" selection-start-line="822" selection-start-column="24" selection-end-line="822" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header-homepage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header-homepage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.bxslider.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-blog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-              <folding>
-                <marker date="1504578757000" expanded="true" signature="861:1130" ph="..." />
-                <marker date="1504578757000" expanded="true" signature="1055:1130" ph="..." />
-                <marker date="1504578757000" expanded="true" signature="1129:1130" ph="..." />
-                <marker date="1504578757000" expanded="true" signature="1465:1714" ph="..." />
-                <marker date="1504578757000" expanded="true" signature="1656:1714" ph="..." />
-                <marker date="1504578757000" expanded="true" signature="2113:2289" ph="..." />
-                <marker date="1504578757000" expanded="true" signature="2161:2289" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +34,8 @@
       <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/partials/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="103" column="33" lean-forward="false" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+            <state relative-caret-position="647">
+              <caret line="103" column="32" lean-forward="false" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -102,7 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#sear</find>
       <find>subfoot</find>
       <find>phone</find>
       <find>slider</find>
@@ -132,6 +82,7 @@
       <find>tqb-</find>
       <find>#slider</find>
       <find>.bx-wrapper</find>
+      <find>#thu</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -204,9 +155,9 @@
         <option value="$PROJECT_DIR$/js/assets.js" />
         <option value="$PROJECT_DIR$/archive.php" />
         <option value="$PROJECT_DIR$/template-blog.php" />
-        <option value="$PROJECT_DIR$/sass/partials/_mixins.scss" />
         <option value="$PROJECT_DIR$/css/jquery.bxslider.min.css" />
         <option value="$PROJECT_DIR$/header-homepage.php" />
+        <option value="$PROJECT_DIR$/sass/partials/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
       </list>
     </option>
@@ -446,12 +397,13 @@
       <workItem from="1503932192713" duration="10664000" />
       <workItem from="1504110103672" duration="15380000" />
       <workItem from="1504232743319" duration="1407000" />
-      <workItem from="1504554027635" duration="13449000" />
+      <workItem from="1504554027635" duration="13545000" />
+      <workItem from="1504630298475" duration="3513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550307000" />
+    <option name="totallyTimeSpent" value="553916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="52" column="81" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,12 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <marker date="1503939712000" expanded="true" signature="1105:1111" ph="←" />
-            <marker date="1503939712000" expanded="true" signature="1269:1275" ph="→" />
-            <marker date="1503939712000" expanded="true" signature="1835:1841" ph="←" />
-            <marker date="1503939712000" expanded="true" signature="1999:2005" ph="→" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="80" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="18" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <marker date="1504145997000" expanded="true" signature="1199:1215" ph="Insert into item... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="119" column="18" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="119" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="28" />
-          <folding>
-            <marker date="1504569942000" expanded="true" signature="970:986" ph="Insert into item... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="54" column="71" lean-forward="true" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,30 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <marker date="1504578757000" expanded="true" signature="861:1130" ph="..." />
-            <marker date="1504578757000" expanded="true" signature="1055:1130" ph="..." />
-            <marker date="1504578757000" expanded="true" signature="1129:1130" ph="..." />
-            <marker date="1504578757000" expanded="true" signature="1465:1714" ph="..." />
-            <marker date="1504578757000" expanded="true" signature="1656:1714" ph="..." />
-            <marker date="1504578757000" expanded="true" signature="2113:2289" ph="..." />
-            <marker date="1504578757000" expanded="true" signature="2161:2289" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/partials/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="33" lean-forward="false" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -856,26 +763,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header-homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="15">
           <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="103" column="32" lean-forward="false" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1850" column="14" lean-forward="false" selection-start-line="1850" selection-start-column="14" selection-end-line="1850" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="822" column="24" lean-forward="false" selection-start-line="822" selection-start-column="24" selection-end-line="822" selection-end-column="24" />
           <folding />
         </state>
       </provider>
