@@ -1,11 +1,11 @@
 /*
 Theme Name: Te quiero Bonita
 Theme URI: http://www.tequierobonitapelu.cl
-Author: Brutos
+Author: brutos.cl
 Author URI: www.somosbrutos.cl
 Description: Proyecto desarrollado para la Peluquería Te Quiero bonita, Chile.
-Version: 1.0
-Tags: black, art, minimal, sass
+Version: 2.0
+Tags: black, art, minimal, sass,
 Text Domain: tequierobonita
 */
 @import "partials/base";
@@ -200,6 +200,7 @@ header {
       display: block;
       margin: auto;
     }
+
   }
   .logo-else {
     text-align: center;
@@ -513,17 +514,28 @@ header {
     position: relative;
     right: 0em;
     top: 1em;
+
     height: 600px;
+    @include media(desktop) {
+      img {
+        width: 125%;
+        position: relative;
+        right: 13%;
+      }
+    }
     @include media(tablet) {
       height: 500px;
       img {
         position: relative;
         right: 70%;
+        width: 175%;
+
       }
     }
     @include media(phones) {
       img {
         right: 110%;
+        width: 265%;
       }
     }
   }
@@ -683,7 +695,9 @@ header {
 
 %figure-position {
   position: relative;
-  margin: 0 0 .7em 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 %title-section {
@@ -727,47 +741,63 @@ header {
       box-sizing: border-box;
       position: relative;
       &:nth-child(1) {
-        height: 515px;
+        height: 400px;
       }
       &:nth-child(1) {
         #portafolio-1 {
           @extend %figure-position;
-          width: calc(100% / 3);
+          width: 30%;
           padding-right: .7em;
-          @include portafolio-position-bottom(0);
-          box-sizing: border-box;
+          figure {
+            position: absolute;
+            bottom: -10px;
+            margin: 0;
+            max-height: 250px;
+          }
         }
-
         #portafolio-2 {
           @extend %figure-position;
-          width: (100% /3)*2;
-          @include portafolio(500px);
+          width: 70%;
           padding-left: .7em;
           @include portafolio-position-right(0);
-          box-sizing: border-box;
+          @include portafolio(400px);
+          figure {
+            position: absolute;
+            bottom: -10px;
+            margin: 0;
+          }
         }
       }
 
       &:nth-child(2) {
-        width: 66%;
+        width: 70%;
         float: right;
+        padding-top: .7em;
         #portafolio-3 {
           @extend %figure-position;
-          width: (100% /3)*2;
+          width: 60%;
           padding-left: .7em;
           padding-right: .7em;
           @include portafolio(300px);
-          box-sizing: border-box;
           a {
             @include portafolio-position-top(0);
             line-height: 0;
           }
+          figure {
+            position: absolute;
+            bottom: -10px;
+            margin: 0;
+          }
         }
         #portafolio-4 {
           @extend %figure-position;
-          width: calc(100% / 3);
+          width: 40%;
           padding-left: .7em;
-          box-sizing: border-box;
+          figure {
+            position: absolute;
+            top: -10px;
+            margin: 0;
+          }
         }
       }
       figcaption {
@@ -787,6 +817,7 @@ header {
     img {
       width: 100%;
       height: auto;
+      position: relative;
     }
   }
 }
@@ -1595,15 +1626,22 @@ a.control_next {
       position: relative;
       overflow: hidden;
       line-height: 0;
+      background: lighten($morado, 40%);
       img {
         width: 100%;
         height: auto;
       }
       .bg-blog {
-        height: 200px;
-        min-width: 345px;
-        background: lighten($morado, 40%);
+        background: url(images/purple-pixel.jpg);
         overflow: hidden;
+        min-width: 500px;
+        height: 25vh;
+        background-size: cover;
+        width: 100%;
+        display: inline-block;
+        @include media(large-desktop) {
+          min-width: 428px;
+        }
       }
       .link-blog {
         display: block;
@@ -1652,7 +1690,16 @@ a.control_next {
             box-sizing: border-box;
             padding: 30px 20px 5px 20px;
           }
-
+          @include media(phones) {
+            padding: 10px;
+            h1 {
+              font-size: 17px;
+              margin: 10px;
+            }
+            span {
+              padding: 10px;
+            }
+          }
         }
       }
     }
@@ -1838,6 +1885,9 @@ a.control_next {
         }
       }
     }
+  }
+  .cat-cloud {
+    text-align: center;
   }
   .btn {
     width: 190px;

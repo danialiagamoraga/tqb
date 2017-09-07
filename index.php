@@ -125,10 +125,10 @@
                 <?php if ($index == 1 || $index == 3): ?>
                     <div>
                 <?php endif; ?>
-                <figure id="portafolio-<?= $index ?>" class="<?php echo $effects; ?>"
-                        data-wow-delay="<?php echo $second; ?>ms">
-                    <?php the_post_thumbnail(); ?>
-                </figure>
+                <div id="portafolio-<?= $index ?>" class="<?php echo $effects; ?>"
+                     data-wow-delay="<?php echo $second; ?>ms">
+                    <figure class="fig-portfolio"><?php the_post_thumbnail(); ?></figure>
+                </div>
                 <?php if ($index == 2 || $index == 4): ?>
                     </div>
                 <?php endif; ?>
@@ -216,7 +216,7 @@
         endwhile;
         wp_reset_query() ?>
     </div>
-    <a href="<?php echo esc_url(home_url('/')) ;?>" class="btn-blog">Ir al Blog</a>
+    <a href="<?php echo esc_url(home_url('/')); ?>blog/" class="btn-blog">Ir al Blog</a>
 </section>
 <?php require_once('productos.php'); ?>
 <?php get_footer(); ?>

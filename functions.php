@@ -104,41 +104,6 @@ function site_left()
     );
 }
 
-add_action('widgets_init', 'site_right');
-
-function site_right()
-{
-    register_sidebar(
-        array(
-            'id' => 'tqb_rigth',
-            'name' => __('Redes Sociales / Random', 'Te Quiero Bonita'),
-            'description' => __('Añade tus redes sociales.'),
-            'before_widget' => '<div class="footer-div">',
-            'after_widget' => '</div>',
-            'before_title' => '<h3>',
-            'after_title' => '</h3>'
-        )
-    );
-}
-
-
-add_action('widgets_init', 'site_sidebar_blog');
-
-function site_sidebar_blog()
-{
-    register_sidebar(
-        array(
-            'id' => 'tqb_sidebar',
-            'name' => __('Blog', 'Te Quiero Bonita'),
-            'description' => __('Añade item relacionados a tu blog.'),
-            'before_widget' => '<div class="sidebar">',
-            'after_widget' => '</div>',
-            'before_title' => '<h3>',
-            'after_title' => '</h3>'
-        )
-    );
-}
-
 add_action('widgets_init', 'site_subfooter_about');
 
 function site_subfooter_about()
