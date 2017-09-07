@@ -102,10 +102,10 @@
 
         // WP_Query arguments
         $args_lonuevo = array(
-            'showposts' => 4,
             'post_type' => array('portafolio'),
-            'orderby' => date,
-            'order' => DESC,
+            'meta_key' => 'ver_en_inicio',
+            'orderby' => 'rand',
+            'posts_per_page' => 4,
         );
 
         // The Query
@@ -127,7 +127,10 @@
                 <?php endif; ?>
                 <div id="portafolio-<?= $index ?>" class="<?php echo $effects; ?>"
                      data-wow-delay="<?php echo $second; ?>ms">
-                    <figure class="fig-portfolio"><?php the_post_thumbnail(); ?></figure>
+                    <figure class="fig-portfolio">
+                        <?php the_post_thumbnail(); ?>
+                        <span class="bg-hover"></span>
+                    </figure>
                 </div>
                 <?php if ($index == 2 || $index == 4): ?>
                     </div>
