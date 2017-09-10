@@ -107,7 +107,7 @@ function portfolio_prefix($meta_boxes)
         'fields' => array(
             array(
                 'id' => 'detail-proyect',
-                'name' => __('servicio', 'textdomain'),
+                'name' => __('Servicio', 'textdomain'),
                 'type' => 'text',
             ),
             array(

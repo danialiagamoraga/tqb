@@ -9,7 +9,7 @@ get_header('homepage'); ?>
         <h1 class="titulo"><?php the_title(); ?></h1>
         <h2 class="subtitulo"><?php echo get_the_excerpt($post->ID); ?></h2>
 
-        <?php get_search_form(); ?>
+        <div class="wow fadeInUp"><?php get_search_form(); ?></div>
 
     <?php endwhile; endif; ?>
 </section>

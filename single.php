@@ -22,7 +22,7 @@
             </div>
 
             <div id="author" class="contenedor-col wow fadeInRight">
-                <figure><?php echo get_avatar($id, $size = '96', '', $alt = 'Te quiero bonita - avatar', ''); ?></figure>
+                <figure><?php echo get_wp_user_avatar(get_the_author_meta('ID'), 90); ?></figure>
                 <article class="info-author">
                     <h2><?php the_author_meta('nickname'); ?></h2>
                     <p><?php the_author_meta('description'); ?></p>

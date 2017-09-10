@@ -6,7 +6,7 @@
         the_post(); ?>
         <h1 class="titulo"><?php the_title(); ?></h1>
         <h2 class="subtitulo"><?php echo get_the_excerpt($post->ID); ?></h2>
-        <?php the_content(); ?>
+        <div class="wow fadeInUp"><?php the_content(); ?></div>
         <?php the_post_thumbnail(); ?>
     <?php endwhile; ?>
     <?php endif; ?>

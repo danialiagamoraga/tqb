@@ -144,6 +144,8 @@ function tequierobonita_assets()
         wp_enqueue_script('bxslider', get_stylesheet_directory_uri() . '/js/jquery.bxslider.min.js', array('jquery'), '4.7', true);
         //wp_enqueue_script( 'theme-scripts', get_stylesheet_directory_uri() . '/js/jquery.bxslider.js', array( 'owl-carousel', 'jquery' ), '1.0', true );
     }
+    //wp_enqueue_script('jquery', get_stylesheet_directory_uri() . '/js/jquery-3.2.1.min.js', array('jquery'), '3.2', true);
+    //wp_enqueue_script('slick', get_stylesheet_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0', true);
     wp_enqueue_script('assets', get_stylesheet_directory_uri() . '/js/assets.js', array('jquery'), '1.0', true);
     wp_enqueue_script('wow', get_stylesheet_directory_uri() . '/js/wow.js', array('jquery'), '1.0', true);
 }

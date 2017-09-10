@@ -21,7 +21,7 @@ get_header('homepage'); ?>
         <?php
         $index = 1;
         $seconds = 1;
-        query_posts('post_type=post&post_status=publish&paged=' . get_query_var('paged'));?>
+        query_posts('post_type=post&post_status=publish&paged=' . get_query_var('paged')); ?>
         <div id="thumb" class="thumb-content">
             <?php if (have_posts()): ?>
                 <?php while (have_posts()): the_post(); ?>
@@ -30,9 +30,9 @@ get_header('homepage'); ?>
                         <figure>
                             <?php if (has_post_thumbnail()) {
                                 the_post_thumbnail();
-                            } else {
-                                echo '<div class="bg-blog"></div>';
-                            } ?>
+                            } else { ?>
+                                <img src="<?php echo bloginfo('stylesheet_directory')?>/images/purple-pixel.jpg">
+                            <?php } ;?>
                             <a href="<?php the_permalink() ?>" class="link-blog"
                                title="<?php the_title_attribute(); ?>">
                                 <div class="bg-hover"></div>

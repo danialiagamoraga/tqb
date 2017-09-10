@@ -19,18 +19,41 @@ Template Name: Portafolio
                 $portfolio = get_post_meta($post->ID, "photographer-url", true); ?>
 
                 <section class="portfolio-detail contenedor">
-                    <h1 class="titulo-detail"><?php the_title(); ?></h1>
+                    <h1 class="titulo-detail wow fadeInLeft"><?php the_title(); ?></h1>
                     <article class="contenido-portafolio">
-                        <div class="contenido">
+                        <div class="contenido wow fadeInLeft">
                             <?php the_content(); ?>
                         </div>
-                        <div class="info-complementaria">
-                            <p><span class="cat">Servicio </span><span class="name"><?php echo $service; ?></span></p>
-                            <p><span class="cat">Año </span> <span class="name"><?php echo $year; ?></span></p>
-                            <p><span class="cat">Fotógrafo </span><span class="name"><span><a href="<?php echo $portfolio; ?>" target="_blank"><?php echo $photographer; ?></a></span></p>
+                        <div class="info-complementaria wow fadeInRight">
+                            <p><span class="cat">Servicio </span>
+                                <?php if (!empty($service)) { ?>
+                                    <span class="name"><?php echo $service; ?></span>
+                                <?php } else { ?>
+                                    <span class="name"><?php the_title(); ?></span>
+                                <?php } ?>
+                            </p>
+                            <p><span class="cat">Año </span>
+                                <?php if (!empty($year)) { ?>
+                                    <span class="name"><?php echo $year; ?></span>
+                                <?php } else { ?>
+                                    <span class="name">-</span>
+                                <?php }; ?>
+                            </p>
+                            <p><span class="cat">Fotógrafo </span>
+                                <span class="name">
+                                    <span>
+                                        <?php if (!empty($portfolio)) { ?>
+                                            <a href="<?php echo $portfolio; ?>"
+                                               target="_blank"><?php echo $photographer; ?></a>
+                                        <?php } else { ?>
+                                            <a href="#" target="_blank"><?php echo $photographer; ?></a>
+                                        <?php } ?>
+                                    </span>
+                                </span>
+                            </p>
                         </div>
                     </article>
-                    <figure>
+                    <figure class="wow fadeInUp">
                         <?php echo get_the_post_thumbnail('', '', ''); ?>
                     </figure>
                 </section>

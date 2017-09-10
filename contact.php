@@ -10,7 +10,7 @@ Template Name: Contacto
         <h1 class="titulo"><?php the_title(); ?></h1>
         <h2 class="subtitulo"><?php echo get_the_excerpt($post->ID); ?></h2>
 
-        <div class="contenedor-col">
+        <div class="contenedor-col wow fadeInUp">
             <article>
                 <?php the_content(); ?>
             </article>
