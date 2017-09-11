@@ -1866,7 +1866,7 @@ header nav ul li a:hover {
   font-size: 25px;
   padding: 0;
   margin: 0;
-  line-height: 20px;
+  line-height: 25px;
 }
 @media (max-width: 800px) {
   /* line 902, sass/style.scss */
@@ -3178,7 +3178,13 @@ a.control_next {
   position: relative;
   height: 50px;
 }
-/* line 1951, sass/style.scss */
+@media (min-width: 1365px) {
+  /* line 1945, sass/style.scss */
+  #productos #slider-productos .thumb-productos li {
+    height: 60px;
+  }
+}
+/* line 1954, sass/style.scss */
 #productos #slider-productos .thumb-productos li a {
   line-height: 100px;
   text-align: center;
@@ -3188,25 +3194,25 @@ a.control_next {
   height: 100%;
   outline: none;
 }
-/* line 1959, sass/style.scss */
+/* line 1962, sass/style.scss */
 #productos #slider-productos .thumb-productos li a img {
-  width: 60%;
+  width: 55%;
   opacity: .3;
   vertical-align: middle;
   display: block;
   margin: auto;
-  max-width: 220px;
+  max-width: 200px;
 }
-/* line 1966, sass/style.scss */
+/* line 1969, sass/style.scss */
 #productos #slider-productos .thumb-productos li a img:hover {
   opacity: .7;
 }
 
-/* line 1979, sass/style.scss */
+/* line 1982, sass/style.scss */
 #contact {
   padding-top: 5em;
 }
-/* line 1984, sass/style.scss */
+/* line 1987, sass/style.scss */
 #contact .subtitulo {
   margin: 0;
   line-height: 20px;
@@ -3218,43 +3224,43 @@ a.control_next {
   padding-bottom: 7em;
   text-align: center;
 }
-/* line 1988, sass/style.scss */
+/* line 1991, sass/style.scss */
 #contact .contenedor-col {
   display: flex;
   flex-wrap: nowrap;
 }
 @media (max-width: 800px) {
-  /* line 1988, sass/style.scss */
+  /* line 1991, sass/style.scss */
   #contact .contenedor-col {
     display: block;
   }
 }
-/* line 1993, sass/style.scss */
+/* line 1996, sass/style.scss */
 #contact .contenedor-col article {
   width: 400px;
   padding-right: 5em;
   box-sizing: border-box;
 }
 @media (max-width: 800px) {
-  /* line 1993, sass/style.scss */
+  /* line 1996, sass/style.scss */
   #contact .contenedor-col article {
     width: 100%;
   }
 }
-/* line 2001, sass/style.scss */
+/* line 2004, sass/style.scss */
 #contact .contenedor-col #contact-form {
   width: calc(100% - 400px);
   box-sizing: border-box;
   padding-bottom: 3em;
 }
 @media (max-width: 800px) {
-  /* line 2001, sass/style.scss */
+  /* line 2004, sass/style.scss */
   #contact .contenedor-col #contact-form {
     width: 100%;
     padding-top: 2em;
   }
 }
-/* line 2009, sass/style.scss */
+/* line 2012, sass/style.scss */
 #contact .contenedor-col #contact-form label {
   width: 100%;
   display: block;
@@ -3263,7 +3269,7 @@ a.control_next {
   padding-bottom: 1em;
   font-weight: 700;
 }
-/* line 2017, sass/style.scss */
+/* line 2020, sass/style.scss */
 #contact .contenedor-col #contact-form input, #contact .contenedor-col #contact-form textarea {
   overflow: auto;
   width: 100%;
@@ -3275,11 +3281,11 @@ a.control_next {
   border-radius: 5px;
   margin: 1.5em 0 10px 0;
 }
-/* line 2027, sass/style.scss */
+/* line 2030, sass/style.scss */
 #contact .contenedor-col #contact-form input:focus, #contact .contenedor-col #contact-form textarea:focus {
   border-color: #c79029;
 }
-/* line 2031, sass/style.scss */
+/* line 2034, sass/style.scss */
 #contact .contenedor-col #contact-form input[type="submit"] {
   width: 200px;
   text-transform: uppercase;
@@ -3287,11 +3293,11 @@ a.control_next {
   letter-spacing: 1px;
   margin: 2em 0 10px 0;
 }
-/* line 2038, sass/style.scss */
+/* line 2041, sass/style.scss */
 #contact .contenedor-col #contact-form input[type="submit"]:hover {
   color: #c79029;
 }
-/* line 2042, sass/style.scss */
+/* line 2045, sass/style.scss */
 #contact .contenedor-col #contact-form span.wpcf7-not-valid-tip {
   padding-bottom: 2em;
   color: #c79029;
@@ -3299,7 +3305,7 @@ a.control_next {
   font-size: 11px;
   letter-spacing: 1px;
 }
-/* line 2049, sass/style.scss */
+/* line 2052, sass/style.scss */
 #contact .contenedor-col #contact-form div.wpcf7-validation-errors {
   border: none;
   margin: 10px 0 3em 0;
@@ -3309,7 +3315,7 @@ a.control_next {
   color: #c79029;
   font-size: 12.5px;
 }
-/* line 2058, sass/style.scss */
+/* line 2061, sass/style.scss */
 #contact .contenedor-col #contact-form div.wpcf7-mail-sent-ok {
   border: none;
   padding: 0;
@@ -3319,24 +3325,24 @@ a.control_next {
   color: #c79029;
 }
 
-/* line 2073, sass/style.scss */
+/* line 2076, sass/style.scss */
 #sub-footer {
   background-color: #2b2f21;
   color: #ffffff;
   padding: 50px 0;
 }
-/* line 2077, sass/style.scss */
+/* line 2080, sass/style.scss */
 #sub-footer .contenedor-col {
   display: flex;
   flex-wrap: nowrap;
 }
-/* line 2079, sass/style.scss */
+/* line 2082, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot {
   width: calc(100% / 4);
   padding-right: 35px;
   box-sizing: border-box;
 }
-/* line 2083, sass/style.scss */
+/* line 2086, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot h1 {
   font-size: 14px;
   padding-bottom: 2.3em;
@@ -3344,7 +3350,7 @@ a.control_next {
   letter-spacing: 1px;
   margin: 3px 0;
 }
-/* line 2089, sass/style.scss */
+/* line 2092, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot h1.about-title {
   font-size: 18px;
   font-family: pt;
@@ -3352,7 +3358,7 @@ a.control_next {
   margin: 0;
   padding: 0;
 }
-/* line 2097, sass/style.scss */
+/* line 2100, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot h2 {
   padding: 0;
   margin: 0;
@@ -3360,16 +3366,16 @@ a.control_next {
   padding-bottom: 2em;
   font-size: 15px;
 }
-/* line 2104, sass/style.scss */
+/* line 2107, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot p {
   color: #e8e8e5;
 }
-/* line 2107, sass/style.scss */
+/* line 2110, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot ul {
   padding: 0;
   margin: 0;
 }
-/* line 2110, sass/style.scss */
+/* line 2113, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot ul a {
   font-size: 12.5px;
   color: #e8e8e5;
@@ -3377,22 +3383,22 @@ a.control_next {
   letter-spacing: 1px;
   display: block;
 }
-/* line 2117, sass/style.scss */
+/* line 2120, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot ul a:hover {
   color: #74bdc4;
 }
-/* line 2120, sass/style.scss */
+/* line 2123, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot ul a span {
   font-size: 12.5px;
   display: inline-block;
 }
-/* line 2124, sass/style.scss */
+/* line 2127, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot ul a i {
   font-size: 16px;
   padding-right: 15px;
   width: 20px;
 }
-/* line 2130, sass/style.scss */
+/* line 2133, sass/style.scss */
 #sub-footer .contenedor-col .sub-foot ul span {
   font-size: 10px;
   letter-spacing: 1px;
@@ -3401,54 +3407,54 @@ a.control_next {
   display: block;
 }
 @media (max-width: 800px) {
-  /* line 2079, sass/style.scss */
+  /* line 2082, sass/style.scss */
   #sub-footer .contenedor-col .sub-foot {
     width: 50%;
   }
-  /* line 2140, sass/style.scss */
+  /* line 2143, sass/style.scss */
   #sub-footer .contenedor-col .sub-foot:nth-child(2), #sub-footer .contenedor-col .sub-foot:nth-child(3) {
     display: none;
   }
 }
 @media (max-width: 480px) {
-  /* line 2079, sass/style.scss */
+  /* line 2082, sass/style.scss */
   #sub-footer .contenedor-col .sub-foot {
     width: 100%;
   }
-  /* line 2146, sass/style.scss */
+  /* line 2149, sass/style.scss */
   #sub-footer .contenedor-col .sub-foot:nth-child(1) {
     display: none;
   }
 }
 
-/* line 2157, sass/style.scss */
+/* line 2160, sass/style.scss */
 #footer {
   background-color: #262a1b;
 }
-/* line 2159, sass/style.scss */
+/* line 2162, sass/style.scss */
 #footer p {
   color: #f9f9f9;
 }
-/* line 2162, sass/style.scss */
+/* line 2165, sass/style.scss */
 #footer .contenedor-col {
   display: flex;
   flex-wrap: nowrap;
   padding: 2em 0;
 }
-/* line 2165, sass/style.scss */
+/* line 2168, sass/style.scss */
 #footer .contenedor-col > div {
   width: calc(100% / 2);
 }
-/* line 2167, sass/style.scss */
+/* line 2170, sass/style.scss */
 #footer .contenedor-col > div a {
   color: white;
   text-decoration: line-through;
 }
-/* line 2171, sass/style.scss */
+/* line 2174, sass/style.scss */
 #footer .contenedor-col > div a:hover {
   color: #c79029;
 }
-/* line 2175, sass/style.scss */
+/* line 2178, sass/style.scss */
 #footer .contenedor-col > div #back-to-top {
   float: right;
   color: #ffffff;
@@ -3457,48 +3463,48 @@ a.control_next {
   background: #2b2f21;
   border-radius: 2px;
 }
-/* line 2183, sass/style.scss */
+/* line 2186, sass/style.scss */
 #footer .contenedor-col > div #back-to-top:hover {
   background-color: #1d2016;
 }
-/* line 2188, sass/style.scss */
+/* line 2191, sass/style.scss */
 #footer .contenedor-col > div:nth-child(3) ul {
   float: right;
   position: static;
 }
-/* line 2192, sass/style.scss */
+/* line 2195, sass/style.scss */
 #footer .contenedor-col > div:nth-child(3) ul i {
   font-size: 17px;
 }
-/* line 2195, sass/style.scss */
+/* line 2198, sass/style.scss */
 #footer .contenedor-col > div:nth-child(3) ul span {
   display: none;
 }
-/* line 2203, sass/style.scss */
+/* line 2206, sass/style.scss */
 #footer .footer-div h3 {
   display: none;
 }
-/* line 2206, sass/style.scss */
+/* line 2209, sass/style.scss */
 #footer .footer-div p {
   font-family: karla;
   font-size: 11px;
   line-height: 33px;
 }
-/* line 2211, sass/style.scss */
+/* line 2214, sass/style.scss */
 #footer .footer-div small {
   font-family: pt;
   color: #f9f9f9;
   letter-spacing: 1px;
 }
-/* line 2215, sass/style.scss */
+/* line 2218, sass/style.scss */
 #footer .footer-div small a {
   color: #c79029;
 }
-/* line 2217, sass/style.scss */
+/* line 2220, sass/style.scss */
 #footer .footer-div small a:hover {
   text-decoration: underline;
 }
-/* line 2222, sass/style.scss */
+/* line 2225, sass/style.scss */
 #footer .footer-div ul {
   display: flex;
   flex-wrap: wrap;
@@ -3506,27 +3512,27 @@ a.control_next {
   margin: 0;
   float: right;
 }
-/* line 2227, sass/style.scss */
+/* line 2230, sass/style.scss */
 #footer .footer-div ul li {
   padding-right: 35px;
   line-height: 35px;
 }
-/* line 2230, sass/style.scss */
+/* line 2233, sass/style.scss */
 #footer .footer-div ul li a {
   color: #f9f9f9;
   letter-spacing: 1px;
   padding-bottom: 6px;
 }
-/* line 2234, sass/style.scss */
+/* line 2237, sass/style.scss */
 #footer .footer-div ul li a:hover {
   border-bottom: 2px solid;
 }
 
-/* line 2243, sass/style.scss */
+/* line 2246, sass/style.scss */
 .contenedor-logo-footer {
   text-align: center;
 }
-/* line 2245, sass/style.scss */
+/* line 2248, sass/style.scss */
 .contenedor-logo-footer .footer-div {
   padding-top: 1.5em;
 }

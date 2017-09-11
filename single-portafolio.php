@@ -40,16 +40,12 @@ Template Name: Portafolio
                                 <?php }; ?>
                             </p>
                             <p><span class="cat">Fotógrafo </span>
-                                <span class="name">
-                                    <span>
-                                        <?php if (!empty($portfolio)) { ?>
-                                            <a href="<?php echo $portfolio; ?>"
-                                               target="_blank"><?php echo $photographer; ?></a>
-                                        <?php } else { ?>
-                                            <a href="#" target="_blank"><?php echo $photographer; ?></a>
-                                        <?php } ?>
-                                    </span>
-                                </span>
+                                <?php if (!empty($portfolio)) { ?>
+                                    <span class="name"><a href="<?php echo $portfolio; ?>"
+                                                          target="_blank"><?php echo $photographer; ?></a></span>
+                                <?php } else { ?>
+                                    <span class="name"><?php echo $photographer; ?></span>
+                                <?php } ?>
                             </p>
                         </div>
                     </article>

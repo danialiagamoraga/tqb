@@ -895,7 +895,7 @@ header {
           font-size: 25px;
           padding: 0;
           margin: 0;
-          line-height: 20px;
+          line-height: 25px;
         }
       }
       @include media(tablet) {
@@ -1948,6 +1948,9 @@ a.control_next {
         box-sizing: border-box;
         position: relative;
         height: 50px;
+        @include media(large-desktop){
+          height: 60px;
+        }
         a {
           line-height: 100px;
           text-align: center;
@@ -1957,12 +1960,12 @@ a.control_next {
           height: 100%;
           outline: none;
           img {
-            width: 60%;
+            width:55%;
             opacity: .3;
             vertical-align: middle;
             display: block;
             margin: auto;
-            max-width: 220px;
+            max-width: 200px;
             &:hover {
               opacity: .7;
             }
