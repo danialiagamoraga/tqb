@@ -7,7 +7,7 @@ Template Name: Portafolio
 
     <section id="portfolio-int" class="contenedor">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            <?php $categorias = get_terms('proyectos', array('orderby' => 'term_id', 'hide_empty' => '1',));
+            <?php $categorias = get_terms('portafolio', array('orderby' => 'term_id', 'hide_empty' => '1',));
             ?>
 
             <h1 class="titulo"><?php the_title(); ?></h1>
@@ -21,11 +21,9 @@ Template Name: Portafolio
                 'nopaging' => true,
                 'orderby' => date,
                 'order' => DESC,
-                'taxonomy' => 'servicios'
             );
 
             $seconds = 6;
-
 
             $query_portafolio = new WP_Query($args_portafolio);
             if ($query_portafolio->have_posts()) :
@@ -44,8 +42,7 @@ Template Name: Portafolio
                     $tendencias = rtrim($tendencias, ', '); ?>
 
 
-                    <figure class="item-portfolio wow fadeInUp"
-                            data-wow-delay="<?php echo $seconds; ?>ms">
+                    <figure class="item-portfolio wow fadeInUp" data-wow-delay="<?php echo $seconds; ?>ms">
                         <?php echo get_the_post_thumbnail('', '', ''); ?>
 
                         <a href="<?php the_permalink() ?>" class="link-item" title="<?php the_title_attribute(); ?>">

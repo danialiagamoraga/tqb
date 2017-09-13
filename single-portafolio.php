@@ -1,7 +1,3 @@
-<?php
-/*
-Template Name: Portafolio
-*/ ?>
 <?php get_header('homepage'); ?>
 <?php require_once('lateral-menu.php'); ?>
 

@@ -35,7 +35,6 @@ Template Name: Servicios
             'nopaging' => true,
             'order' => 'ASC',
             'orderby' => 'title',
-            'taxonomy' => 'servicios'
         );
 
         $seconds= 1;
@@ -60,9 +59,7 @@ Template Name: Servicios
                         <div class="item-description">
                             <?php if (!empty($description)) { ?>
                                 <p><?php echo $description; ?></p>
-                            <?php } else { ?>
-                                <p>Servicios Te quiero Bonita</p>
-                            <?php } ?>
+                            <?php }?>
                         </div>
 
                         <?php if (!empty($price)) { ?>

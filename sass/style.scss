@@ -289,6 +289,9 @@ header {
   top: 34em;
   z-index: 2;
   margin: 0;
+  @include media(large-desktop) {
+    left: 2em;
+  }
   @include media(tablet) {
     display: none !important;
   }
@@ -324,6 +327,9 @@ header {
   top: 34em;
   z-index: 2;
   margin: 0;
+  @include media(large-desktop) {
+    right: 1em;
+  }
   @include media(tablet) {
     display: none !important;
   }
@@ -931,6 +937,16 @@ header {
         padding-right: 3em;
         box-sizing: border-box;
         line-height: 30px;
+        a {
+          color: $morado;
+          font-family: pt;
+          @extend %transition;
+          text-decoration: line-through;
+          &:hover {
+            text-decoration: none;
+            color: $dorado;
+          }
+        }
       }
       .info-complementaria {
         width: 40%;
@@ -949,10 +965,11 @@ header {
           .name {
             width: 70%;
             a {
-              color: $galleon;
+              color: $dorado;
               @extend %transition;
               &:hover {
                 text-decoration: line-through;
+                color: $morado;
               }
             }
           }
@@ -1587,6 +1604,7 @@ a.control_next {
     color: $base;
     font-family: pt-bold;
     letter-spacing: 1px;
+    @extend %transition;
     &:hover {
       color: $galleon;
     }
@@ -1948,7 +1966,7 @@ a.control_next {
         box-sizing: border-box;
         position: relative;
         height: 50px;
-        @include media(large-desktop){
+        @include media(large-desktop) {
           height: 60px;
         }
         a {
@@ -1960,7 +1978,7 @@ a.control_next {
           height: 100%;
           outline: none;
           img {
-            width:55%;
+            width: 55%;
             opacity: .3;
             vertical-align: middle;
             display: block;

@@ -22,6 +22,7 @@ Template Name: Contacto
     <?php endwhile; endif; ?>
 
 </section>
+<?php require_once('productos.php'); ?>
 <?php get_footer(); ?>
 
 
