@@ -10,8 +10,11 @@
                 <span>Por <span class=""><?php the_author(); ?></span></span></h2>
             <div class="wow fadeInRight">
 
-                <?php if (has_post_thumbnail()) {
-                    the_post_thumbnail();
+                <?php $video = do_shortcode('[featured-video-plus]');
+                if ($video != '' && has_post_thumbnail()) {
+                    echo $video;
+                } else {
+                    echo the_post_thumbnail();
                 } ?>
             </div>
 
@@ -24,7 +27,11 @@
             <div id="author" class="contenedor-col wow fadeInRight">
                 <figure><?php echo get_wp_user_avatar(get_the_author_meta('ID'), 90); ?></figure>
                 <article class="info-author">
-                    <h2><?php the_author_meta('nickname'); ?></h2>
+                    <?php if (get_the_author_link() != '') { ?>
+                        <h2><?php echo get_the_author_link(); ?></h2>
+                    <?php } else { ?>
+                        <h2><?php the_author_meta('nickname'); ?></h2>
+                    <?php } ?>
                     <p><?php the_author_meta('description'); ?></p>
                 </article>
             </div>

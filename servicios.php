@@ -59,7 +59,9 @@ Template Name: Servicios
                         <div class="item-description">
                             <?php if (!empty($description)) { ?>
                                 <p><?php echo $description; ?></p>
-                            <?php }?>
+                            <?php } else { ?>
+                                <p>Servicios Te quiero Bonita</p>
+                            <?php } ?>
                         </div>
 
                         <?php if (!empty($price)) { ?>

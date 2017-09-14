@@ -163,6 +163,14 @@ strong {
   font-family: pt-bold;
   font-weight: inherit;
   color: $morado;
+  a {
+    color: $morado;
+    font-family: karla;
+    @extend %transition;
+    &:hover {
+      text-decoration: line-through;
+    }
+  }
 }
 
 header {
@@ -1330,7 +1338,7 @@ a.control_next {
 #publicacion {
   padding-top: 5em;
   p {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     line-height: 30px;
   }
   article {
@@ -1360,6 +1368,13 @@ a.control_next {
       max-width: 100%;
     }
   }
+  .featured-video-plus {
+    padding-bottom: 3em;
+    iframe {
+      width: 100%;
+      min-height: 420px;
+    }
+  }
 }
 
 .tags {
@@ -1374,6 +1389,9 @@ a.control_next {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 11px;
+    display: inline-block;
+    margin-bottom: 8px;
+    @extend %transition;
     &:hover {
       color: $dorado;
     }
@@ -1406,7 +1424,14 @@ a.control_next {
       margin: 0;
       padding-bottom: 10px;
       letter-spacing: 1px;
-      color: darken($base, 10%);
+      a {
+        color: darken($base, 10%);
+        @extend %transition;
+        &:hover {
+          color: $dorado;
+          text-decoration: line-through;
+        }
+      }
     }
   }
 }

@@ -18,9 +18,7 @@
                         <figcaption class="info">
                             <div class="title-content">
                                 <div class="second-content">
-                                    <h2><?php global $page, $paged;
-                                        wp_title('|', true, 'right');
-                                        bloginfo('name'); ?>
+                                    <h2><?php bloginfo('name'); ?>
                                         <?php if (has_excerpt()) {
                                             echo ' · ' . get_the_excerpt();
                                         } else {
@@ -106,6 +104,7 @@
             'meta_key' => 'ver_en_inicio',
             'orderby' => 'rand',
             'posts_per_page' => 4,
+            'meta_value' => 'yes',
         );
 
         // The Query
