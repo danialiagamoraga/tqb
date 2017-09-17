@@ -11,7 +11,7 @@
         if (defined('WPSEO_VERSION')) {
             wp_title('');
         } else {
-            bloginfo('name'); ?><?php wp_title(' - ', true, 'left');
+            bloginfo('name'); ?><?php wp_title(' · ', true, 'left');
         }
         ?>
     </title>
