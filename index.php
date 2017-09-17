@@ -1,4 +1,5 @@
-<?php get_header('homepage'); ?>
+<?php
+get_header('homepage'); ?>
 <?php require_once('lateral-menu.php'); ?>
 
 <section id="slider" class="contenedor wow fadeInUp ">

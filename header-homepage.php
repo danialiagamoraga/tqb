@@ -8,18 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>
         <?php
-
-        global $page, $paged;
-        wp_title('|', true, 'right');
-        // Agrega el nombre del blog.
-        bloginfo('name');
-        // Agrega la descripción del blog, en la página principal.
-        $site_description = get_bloginfo('description', 'display');
-        if ($site_description && (is_home() || is_front_page()))
-            echo " | $site_description";
-        // Agrega el número de página si es necesario:
-        if ($paged >= 2 || $page >= 2)
-            echo ' | ' . sprintf(__('Page %s', 'Te quiero Bonita'), max($paged, $page));
+        if (defined('WPSEO_VERSION')) {
+            wp_title('');
+        } else {
+            bloginfo('name'); ?><?php wp_title(' - ', true, 'left');
+        }
         ?>
     </title>
     <link href="<?php bloginfo('stylesheet_url') ?>" rel="stylesheet" type="text/css">
@@ -81,7 +74,7 @@
                 </a>
             </div> <!-- /logotype -->
         <?php } else : { ?>
-            <h1 class="logo-else"><?php echo get_bloginfo( 'name' ); ?></h1>
+            <h1 class="logo-else"><?php echo get_bloginfo('name'); ?></h1>
         <?php } ?>
         <?php endif; ?>
     </div>

@@ -122,6 +122,7 @@ p {
   font-size: 12px;
   letter-spacing: 1px;
   font-family: pt;
+  @extend %transition;
   span {
     font-family: karla;
     text-transform: uppercase;
@@ -164,10 +165,11 @@ strong {
   font-weight: inherit;
   color: $morado;
   a {
-    color: $morado;
-    font-family: karla;
+    color: $dorado;
     @extend %transition;
+    text-decoration: none;
     &:hover {
+      color: $morado;
       text-decoration: line-through;
     }
   }
@@ -946,13 +948,13 @@ header {
         box-sizing: border-box;
         line-height: 30px;
         a {
-          color: $morado;
+          color: $dorado;
           font-family: pt;
           @extend %transition;
-          text-decoration: line-through;
+          text-decoration: none;
           &:hover {
-            text-decoration: none;
-            color: $dorado;
+            color: $morado;
+            text-decoration: line-through;
           }
         }
       }
@@ -975,6 +977,7 @@ header {
             a {
               color: $dorado;
               @extend %transition;
+              text-decoration: none;
               &:hover {
                 text-decoration: line-through;
                 color: $morado;
@@ -1340,6 +1343,15 @@ a.control_next {
   p {
     padding-bottom: 2em;
     line-height: 30px;
+    a {
+      color: $dorado;
+      @extend %transition;
+      &:hover {
+        color: $morado;
+        text-decoration: line-through;
+
+      }
+    }
   }
   article {
     .titulo {
@@ -1779,6 +1791,15 @@ a.control_next {
   p {
     padding-bottom: 3em;
     line-height: 30px;
+    a {
+      color: $dorado;
+      @extend %transition;
+      &:hover {
+        color: $morado;
+        text-decoration: line-through;
+
+      }
+    }
   }
   @include media(tablet) {
     .attachment-post-thumbnail {
@@ -2253,6 +2274,9 @@ a.control_next {
       font-family: karla;
       font-size: 11px;
       line-height: 33px;
+      @include media(phones) {
+        font-size: 9px;
+      }
     }
     small {
       font-family: pt;
